@@ -1,5 +1,7 @@
 ﻿# The script of the game goes in this file.
 
+# PASSAGE NAME: Intro
+
 label intro:
 
     $ ending = 1

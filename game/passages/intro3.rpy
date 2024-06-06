@@ -1,5 +1,7 @@
 ﻿# The script of the game goes in this file.
 
+# PASSAGE NAME: Intro part 3
+
 label intro3:
 
     if ending >= 2:

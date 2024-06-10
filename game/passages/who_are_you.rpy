@@ -22,7 +22,10 @@ label who_are_you:
 
     "I am Entropy."
 
-    "This place is just a playground for you to ping around, toy with, and ultimately bide your time." 
+    nvl clear
+    pause 15.0
+
+    "This place is just a playground for you to ping around, toy with, and ultimately hide from the world." 
 
     menu:
         "I am Entropy.":

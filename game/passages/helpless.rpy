@@ -19,3 +19,9 @@ label helpless:
             jump ending4
         "the silence they've left behind." if ending == 5:
             jump ending5
+        "the silence they've left behind." if ending == 6:
+            jump ending6
+        "the silence they've left behind." if ending == 7:
+            jump ending7
+        "the silence they've left behind." if ending == 8:
+            jump ending8

@@ -4,6 +4,8 @@
 
 label ending5:
 
+    $ ending = 6
+
     nvl clear
     pause 5.0
 

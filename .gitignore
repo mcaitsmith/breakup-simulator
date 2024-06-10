@@ -32,6 +32,7 @@ log.txt
 errors.txt
 traceback.txt
 lint.txt
+progressive_download.txt
 
 # Created directories.
 saves/

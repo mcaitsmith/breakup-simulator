@@ -128,7 +128,7 @@ Or ten years.
 [["It's better this way."]]
 
 
-:: "If you were sorry then you wouldn't leave." {"position":"1600,75","size":"100,100"}
+:: "If you were sorry then you wouldn't leave." {"position":"1550,50","size":"100,100"}
 <<set $options to $options + 1>>
 "Is that really what you'd prefer? You'd rather I stay even if I'm unhappy? Are you so afraid to be alone that you'd hold me prisoner?"
 
@@ -152,7 +152,7 @@ Do you actually understand or is this just another ploy to make them change thei
 [[I'm still holding on to hope.|"Yeah, it's fine. You do you."]]
 
 
-:: "Make up your mind." {"position":"1050,150","size":"100,100"}
+:: "Make up your mind." {"position":"1025,100","size":"100,100"}
 <<set $options to $options + 1>>
 "I wish I could, believe me. There are so many things in my life that I am constatly uncertain about. My job isn't going anywhere, I don't have any friends, it  feels like I'm going nowhere. I need to be alone for a while, figure out what I want, that much I know."
 
@@ -271,7 +271,7 @@ They're lying to you. I've never been more certain. Infidelity. Betrayal. Make t
 [["What do you mean that we don't have anything in common? How did you randomly decide that now?"|push]]
 
 
-:: "Throwing me away won't fix your life. You don't have to be alone." {"position":"1225,125","size":"100,100"}
+:: "Throwing me away won't fix your life. You don't have to be alone." {"position":"1175,125","size":"100,100"}
 <<set $options to $options + 1>>
 "I'm not throwing you away." 
 
@@ -303,7 +303,7 @@ This is good. THIS is how you stay with them. You play the long game.
 [["You might be right."|Let them go]]
 
 
-:: "Why not?" {"position":"500,375","size":"100,100"}
+:: "Why not?" {"position":"500,425","size":"100,100"}
 <<set $options to $options + 1>>
 "I-I don't know. Believe me, I've been trying really hard to make things work between us. But when I try to imagine my future, and I picture you there, it just doesn't feel right."
 
@@ -342,7 +342,7 @@ You found it: an opening.
 [[Back off.|Stay silent.]]
 
 
-:: "Yes." {"position":"1775,50","size":"100,100"}
+:: "Yes." {"position":"1750,0","size":"100,100"}
 <<set $options to $options + 1>>
 "Then I don't know who the fuck you are...And this isn't a relationship anymore, it's a hostage situation."
 
@@ -384,7 +384,7 @@ You look over at the TV, still frozen in place. 'One episode to go' the screen s
 [[Reluctantly accept what they're saying to you as truth.|Stay silent.]]
 
 
-:: Attraction {"position":"425,1300","size":"100,100"}
+:: Attraction {"position":"450,1300","size":"100,100"}
 <<set $options to $options + 1>>
 "Have you not made your way around the dialogue tree enough to understand yet?"
 
@@ -503,7 +503,7 @@ And there it is. You never saw it coming. Not in a million years. But there it i
 
 
 
-:: Just tell me what it will take to make you love me. {"position":"1925,50","size":"100,100"}
+:: Just tell me what it will take to make you love me. {"position":"1925,25","size":"100,100"}
 "I won't," they say plainly. Their face goes blank, looking completely different from the way you remember it.
 
 You can relive this memory as many times as you like, imagine all the different things you want to say, imagine all the things I might have said in response, but it doesn't change reality. I left. You didn't do anything wrong, you didn't miss any important cues, I just left because I felt like it. There was nothing you could do. 
@@ -597,7 +597,7 @@ You realize that as long as this key is in your hand they won't leave. You can h
 [["No."]]
 
 
-:: Stay silent. {"position":"1000,425","size":"100,100"}
+:: Stay silent. {"position":"775,325","size":"100,100"}
 <<set $options to $options + 1>>
 "I can't tell you how sorry I really am. You mean so much to me, and the time we've spent together has meant the world. But I think this is what's best for both of us." 
 
@@ -647,7 +647,7 @@ Impossible. If that were true you wouldn't be stuck here. You'd be somewhere els
 <</if>>
 
 
-:: What are you? {"position":"1000,1275","size":"100,100"}
+:: What are you? {"position":"1000,1200","size":"100,100"}
 <<set $options to $options + 1>>
 "It might be easier for you if you stopped digging, accepted that this is a game you were never meant to win."
 
@@ -674,9 +674,9 @@ You've always known me. I was with you before birth and I'll reclaim you when yo
 <<timed 10s>>
 [[I am Entropy.|You're helpless to stop it.]]
 <</timed>>
-
-This place is just a playground for you to ping around, toy with, and ultimately bide your time. 
-
+<,timed 15s>>
+This place is just a playground for you to ping around, toy with, and ultimately hide from the world. 
+<</timed>>
 
 
 :: Yes, but I want this anyway. {"position":"1000,300","size":"100,100"}
@@ -733,7 +733,20 @@ As they leave the apartment, it's just you and
 <<else>>
 <</if>>
 
+<<if $ending is 6>>
+[[the silence they've left behind.|ending 6]]
+<<else>>
+<</if>>
 
+<<if $ending is 7>>
+[[the silence they've left behind.|ending 7]]
+<<else>>
+<</if>>
+
+<<if $ending is 8>>
+[[the silence they've left behind.|ending 8]]
+<<else>>
+<</if>>
 
 
 :: ending 2 {"position":"2100,400","size":"100,100"}
@@ -795,6 +808,7 @@ Everything will be perfect.
 
 
 :: ending 5 {"position":"2700,400","size":"100,100"}
+<<set $ending to 6>>
 <<timed 5s>>
 Round and around we go.
 <</timed>>
@@ -809,6 +823,62 @@ I'll let you in on a secret though
 <</timed>>
 <<timed 23s>>
 There is a way to [[break the loop.|Intro part 3]]
+<</timed>>
+
+
+:: ending 6 {"position":"2900,400","size":"100,100"}
+<<set $ending to 7>>
+<<timed 5>>
+You saw a future?
+<</timed>>
+<<timed 10s>>
+There is no future. Not if they don't love you anymore
+<</timed>>
+<<timed 15s>>
+Can someone wake up and just stop loving you?
+<</timed>>
+<<timed 20s>>
+Or is it just natural for attraction to ebb and [[flow?|Intro part 3]]
+<</timed>>
+<<timed 23s>>
+I want to forget so badly but I can't. It never stops. 
+<</timed>>
+
+
+:: ending 7 {"position":"3100,400","size":"100,100"}
+<<set $ending to 8>>
+<<timed 5s>>
+Have you considered that the problem is just who you are?
+<</timed>>
+<<timed 10s>>
+There is something innately wrong with you.
+<</timed>>
+<<timed 15s>>
+The only way someone would stay with you is if you held them prisoner.
+<</timed>>
+<<timed 20s>>
+What does it take to make someone [[love you?|Intro part 3]]
+<</timed>>
+<<timed 23s>>
+Do you remember what their face looked like anymore?
+<</timed>>
+
+
+:: ending 8 {"position":"3300,400","size":"100,100"}
+<<timed 5s>>
+You're not alone in here.
+<</timed>>
+<<timed 10s>>
+Have you found them already?
+<</timed>>
+<<timed 15s>>
+Keep looking.
+<</timed>>
+<<timed 20s>>
+There may not be a way to win, but you can still [[break the loop|Intro part 3]]
+<</timed>>
+<<timed 23s>>
+Find entropy.
 <</timed>>
 
 
@@ -869,7 +939,7 @@ Bullshit. This is all some sadistic game to them. Good people don't just throw o
 [[Stop pushing this.|Stay silent.]]
 
 
-:: say no {"position":"1900,225","size":"100,100"}
+:: say no {"position":"2000,200","size":"100,100"}
 "Then you have to [[let me go.|Let them go]]"
 
 

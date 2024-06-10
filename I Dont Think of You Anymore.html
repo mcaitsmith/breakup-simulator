@@ -98,7 +98,7 @@ var LZString={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234
 		<div id="init-lacking"><p>Browser lacks capabilities required to play.</p><p>Upgrade or switch to another browser.</p></div>
 		<div id="init-loading"><div>Loading&hellip;</div></div>
 	</div>
-	<tw-storydata name="I Dont Think of You Anymore" startnode="1" creator="Twine" creator-version="2.8.1" format="SugarCube" format-version="2.36.1" ifid="5664E4DA-427E-4E45-B8C7-FA889F0147EE" options="" tags="" zoom="0.6" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Intro" tags="" position="0,200" size="100,100">&lt;&lt;set $ending to 1&gt;&gt;
+	<tw-storydata name="I Dont Think of You Anymore" startnode="1" creator="Twine" creator-version="2.6.2" format="SugarCube" format-version="2.36.1" ifid="5664E4DA-427E-4E45-B8C7-FA889F0147EE" options="" tags="" zoom="0.6" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Intro" tags="" position="0,200" size="100,100">&lt;&lt;set $ending to 1&gt;&gt;
 
 It&#39;s Saturday morning and you&#39;re sitting on the couch with your partner of two years, holding hands as you watch the latest binge-worthy show. The sun is shining through the window into your shabby yet cozy apartment. The both of you worked hard to pick out the furniture, the wall art, the rugs. This place is the emboidment of your love, your time spent together. It isn&#39;t perfect, but it feels like home. 
 
@@ -155,7 +155,7 @@ And there it is. You never saw it coming. Not in a million years. But there it i
 &lt;&lt;else&gt;&gt;
 &lt;&lt;/if&gt;&gt;
 
-</tw-passagedata><tw-passagedata pid="4" name="&quot;Why not?&quot;" tags="" position="500,375" size="100,100">&lt;&lt;set $options to $options + 1&gt;&gt;
+</tw-passagedata><tw-passagedata pid="4" name="&quot;Why not?&quot;" tags="" position="500,425" size="100,100">&lt;&lt;set $options to $options + 1&gt;&gt;
 &quot;I-I don&#39;t know. Believe me, I&#39;ve been trying really hard to make things work between us. But when I try to imagine my future, and I picture you there, it just doesn&#39;t feel right.&quot;
 
 You recall having the same experience, imagining your future together, except you couldn&#39;t imagine your future WITHOUT them. To hear that they couldn&#39;t imagine it WITH you...
@@ -196,7 +196,7 @@ Or ten years.
 
 [[&quot;I guess.&quot;|Stay silent.]] 
 
-[[&quot;It&#39;s better this way.&quot;]]</tw-passagedata><tw-passagedata pid="7" name="Stay silent." tags="" position="1000,425" size="100,100">&lt;&lt;set $options to $options + 1&gt;&gt;
+[[&quot;It&#39;s better this way.&quot;]]</tw-passagedata><tw-passagedata pid="7" name="Stay silent." tags="" position="775,325" size="100,100">&lt;&lt;set $options to $options + 1&gt;&gt;
 &quot;I can&#39;t tell you how sorry I really am. You mean so much to me, and the time we&#39;ve spent together has meant the world. But I think this is what&#39;s best for both of us.&quot; 
 
 No matter how they try to sugarcoat their words, they continue to feel like daggers.
@@ -313,7 +313,20 @@ As they leave the apartment, it&#39;s just you and
 &lt;&lt;else&gt;&gt;
 &lt;&lt;/if&gt;&gt;
 
-</tw-passagedata><tw-passagedata pid="17" name="the silence they&#39;ve left behind." tags="" position="1900,400" size="100,100">&lt;&lt;set $ending to 2&gt;&gt;
+&lt;&lt;if $ending is 6&gt;&gt;
+[[the silence they&#39;ve left behind.|ending 6]]
+&lt;&lt;else&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+
+&lt;&lt;if $ending is 7&gt;&gt;
+[[the silence they&#39;ve left behind.|ending 7]]
+&lt;&lt;else&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+
+&lt;&lt;if $ending is 8&gt;&gt;
+[[the silence they&#39;ve left behind.|ending 8]]
+&lt;&lt;else&gt;&gt;
+&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="17" name="the silence they&#39;ve left behind." tags="" position="1900,400" size="100,100">&lt;&lt;set $ending to 2&gt;&gt;
 &lt;&lt;timed 5s&gt;&gt;
 You know it&#39;s your fault, right?
 &lt;&lt;/timed&gt;&gt;
@@ -447,7 +460,7 @@ Fair to you?! This whole thing has been unfair to you. Pulling the rug out from 
 
 [[&quot;Fine.&quot;|Let them go]]
 
-[[&quot;Fuck you.&quot;|Let them go]]</tw-passagedata><tw-passagedata pid="34" name="&quot;Make up your mind.&quot;" tags="" position="1050,150" size="100,100">&lt;&lt;set $options to $options + 1&gt;&gt;
+[[&quot;Fuck you.&quot;|Let them go]]</tw-passagedata><tw-passagedata pid="34" name="&quot;Make up your mind.&quot;" tags="" position="1025,100" size="100,100">&lt;&lt;set $options to $options + 1&gt;&gt;
 &quot;I wish I could, believe me. There are so many things in my life that I am constatly uncertain about. My job isn&#39;t going anywhere, I don&#39;t have any friends, it  feels like I&#39;m going nowhere. I need to be alone for a while, figure out what I want, that much I know.&quot;
 
 You detect uncertainty in their voice. Part of them suspects that they will live to regret this decision, at least you surmise from their tone. They could be swayed if you&#39;re clever. 
@@ -545,7 +558,7 @@ Do you actually understand or is this just another ploy to make them change thei
 
 [[I mean it.]]
 
-[[I&#39;m still holding on to hope.|&quot;Yeah, it&#39;s fine. You do you.&quot;]]</tw-passagedata><tw-passagedata pid="43" name="&quot;Throwing me away won&#39;t fix your life. You don&#39;t have to be alone.&quot;" tags="" position="1225,125" size="100,100">&lt;&lt;set $options to $options + 1&gt;&gt;
+[[I&#39;m still holding on to hope.|&quot;Yeah, it&#39;s fine. You do you.&quot;]]</tw-passagedata><tw-passagedata pid="43" name="&quot;Throwing me away won&#39;t fix your life. You don&#39;t have to be alone.&quot;" tags="" position="1175,125" size="100,100">&lt;&lt;set $options to $options + 1&gt;&gt;
 &quot;I&#39;m not throwing you away.&quot; 
 
 You notice their hands shaking. 
@@ -567,19 +580,19 @@ You found it: an opening.
 
 [[&quot;If you were sorry then you wouldn&#39;t leave.&quot;]]
 
-[[Back off.|Stay silent.]]</tw-passagedata><tw-passagedata pid="45" name="&quot;If you were sorry then you wouldn&#39;t leave.&quot;" tags="" position="1600,75" size="100,100">&lt;&lt;set $options to $options + 1&gt;&gt;
+[[Back off.|Stay silent.]]</tw-passagedata><tw-passagedata pid="45" name="&quot;If you were sorry then you wouldn&#39;t leave.&quot;" tags="" position="1550,50" size="100,100">&lt;&lt;set $options to $options + 1&gt;&gt;
 &quot;Is that really what you&#39;d prefer? You&#39;d rather I stay even if I&#39;m unhappy? Are you so afraid to be alone that you&#39;d hold me prisoner?&quot;
 
 [[&quot;Yes.&quot;]]
 
-[[ &quot;No.&quot; |say no]]</tw-passagedata><tw-passagedata pid="46" name="&quot;Yes.&quot;" tags="" position="1775,50" size="100,100">&lt;&lt;set $options to $options + 1&gt;&gt;
+[[ &quot;No.&quot; |say no]]</tw-passagedata><tw-passagedata pid="46" name="&quot;Yes.&quot;" tags="" position="1750,0" size="100,100">&lt;&lt;set $options to $options + 1&gt;&gt;
 &quot;Then I don&#39;t know who the fuck you are...And this isn&#39;t a relationship anymore, it&#39;s a hostage situation.&quot;
 
 [[Just tell me what it will take to make you love me.]]
 
 [[&quot;No it isn&#39;t, we&#39;re in love.&quot;|Let them go]]
 
-[[Let them go]]</tw-passagedata><tw-passagedata pid="47" name="say no" tags="" position="1900,225" size="100,100">&quot;Then you have to [[let me go.|Let them go]]&quot;</tw-passagedata><tw-passagedata pid="48" name="Just tell me what it will take to make you love me." tags="" position="1925,50" size="100,100">&quot;I won&#39;t,&quot; they say plainly. Their face goes blank, looking completely different from the way you remember it.
+[[Let them go]]</tw-passagedata><tw-passagedata pid="47" name="say no" tags="" position="2000,200" size="100,100">&quot;Then you have to [[let me go.|Let them go]]&quot;</tw-passagedata><tw-passagedata pid="48" name="Just tell me what it will take to make you love me." tags="" position="1925,25" size="100,100">&quot;I won&#39;t,&quot; they say plainly. Their face goes blank, looking completely different from the way you remember it.
 
 You can relive this memory as many times as you like, imagine all the different things you want to say, imagine all the things I might have said in response, but it doesn&#39;t change reality. I left. You didn&#39;t do anything wrong, you didn&#39;t miss any important cues, I just left because I felt like it. There was nothing you could do. 
 
@@ -598,9 +611,9 @@ You&#39;ve always known me. I was with you before birth and I&#39;ll reclaim you
 &lt;&lt;timed 10s&gt;&gt;
 [[I am Entropy.|You&#39;re helpless to stop it.]]
 &lt;&lt;/timed&gt;&gt;
-
-This place is just a playground for you to ping around, toy with, and ultimately bide your time. 
-</tw-passagedata><tw-passagedata pid="51" name="&quot;I don&#39;t think that&#39;ll be an issue. We can be civil.&quot;" tags="" position="1600,250" size="100,100">&lt;&lt;set $options to $options + 1&gt;&gt;
+&lt;,timed 15s&gt;&gt;
+This place is just a playground for you to ping around, toy with, and ultimately hide from the world. 
+&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="51" name="&quot;I don&#39;t think that&#39;ll be an issue. We can be civil.&quot;" tags="" position="1600,250" size="100,100">&lt;&lt;set $options to $options + 1&gt;&gt;
 &quot;No,&quot; they say resolutely. &quot;It&#39;s not about &#39;being civil&#39;. I don&#39;t think my life can move forward with you in it.&quot;
 
 [[&quot;Please try. I don&#39;t want to live without you.&quot;|Persist]]
@@ -627,7 +640,7 @@ As they shout this, they quickly stand up and move towards the door.
 
 [[&quot;FUCK YOU!&quot;|You&#39;re helpless to stop it.]]
 
-[[&quot;Don&#39;t say that don&#39;t say that please for the love of God don&#39;t say that.&quot;|You&#39;re helpless to stop it.]]</tw-passagedata><tw-passagedata pid="53" name="Attraction" tags="" position="425,1300" size="100,100">&lt;&lt;set $options to $options + 1&gt;&gt;
+[[&quot;Don&#39;t say that don&#39;t say that please for the love of God don&#39;t say that.&quot;|You&#39;re helpless to stop it.]]</tw-passagedata><tw-passagedata pid="53" name="Attraction" tags="" position="450,1300" size="100,100">&lt;&lt;set $options to $options + 1&gt;&gt;
 &quot;Have you not made your way around the dialogue tree enough to understand yet?&quot;
 
 [[Understand what?]]
@@ -644,7 +657,7 @@ Impossible. If that were true you wouldn&#39;t be stuck here. You&#39;d be somew
 &lt;&lt;if $entropy is 1&gt;&gt;
 [[You&#39;re Entropy]]
 &lt;&lt;else&gt;&gt;
-&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="55" name="What are you?" tags="" position="1000,1275" size="100,100">&lt;&lt;set $options to $options + 1&gt;&gt;
+&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="55" name="What are you?" tags="" position="1000,1200" size="100,100">&lt;&lt;set $options to $options + 1&gt;&gt;
 &quot;It might be easier for you if you stopped digging, accepted that this is a game you were never meant to win.&quot;
 
 It stands up to leave once again.
@@ -712,7 +725,8 @@ Maybe you have learned something after all.
 
 I&#39;ll be sad to see you leave too, when the time comes of course. 
 
-[[Continue.|Let them go]]</tw-passagedata><tw-passagedata pid="63" name="ending 5" tags="" position="2700,400" size="100,100">&lt;&lt;timed 5s&gt;&gt;
+[[Continue.|Let them go]]</tw-passagedata><tw-passagedata pid="63" name="ending 5" tags="" position="2700,400" size="100,100">&lt;&lt;set $ending to 6&gt;&gt;
+&lt;&lt;timed 5s&gt;&gt;
 Round and around we go.
 &lt;&lt;/timed&gt;&gt;
 &lt;&lt;timed 10s&gt;&gt;
@@ -726,6 +740,50 @@ I&#39;ll let you in on a secret though
 &lt;&lt;/timed&gt;&gt;
 &lt;&lt;timed 23s&gt;&gt;
 There is a way to [[break the loop.|Intro part 3]]
+&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="64" name="ending 6" tags="" position="2900,400" size="100,100">&lt;&lt;set $ending to 7&gt;&gt;
+&lt;&lt;timed 5&gt;&gt;
+You saw a future?
+&lt;&lt;/timed&gt;&gt;
+&lt;&lt;timed 10s&gt;&gt;
+There is no future. Not if they don&#39;t love you anymore
+&lt;&lt;/timed&gt;&gt;
+&lt;&lt;timed 15s&gt;&gt;
+Can someone wake up and just stop loving you?
+&lt;&lt;/timed&gt;&gt;
+&lt;&lt;timed 20s&gt;&gt;
+Or is it just natural for attraction to ebb and [[flow?|Intro part 3]]
+&lt;&lt;/timed&gt;&gt;
+&lt;&lt;timed 23s&gt;&gt;
+I want to forget so badly but I can&#39;t. It never stops. 
+&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="65" name="ending 7" tags="" position="3100,400" size="100,100">&lt;&lt;set $ending to 8&gt;&gt;
+&lt;&lt;timed 5s&gt;&gt;
+Have you considered that the problem is just who you are?
+&lt;&lt;/timed&gt;&gt;
+&lt;&lt;timed 10s&gt;&gt;
+There is something innately wrong with you.
+&lt;&lt;/timed&gt;&gt;
+&lt;&lt;timed 15s&gt;&gt;
+The only way someone would stay with you is if you held them prisoner.
+&lt;&lt;/timed&gt;&gt;
+&lt;&lt;timed 20s&gt;&gt;
+What does it take to make someone [[love you?|Intro part 3]]
+&lt;&lt;/timed&gt;&gt;
+&lt;&lt;timed 23s&gt;&gt;
+Do you remember what their face looked like anymore?
+&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="66" name="ending 8" tags="" position="3300,400" size="100,100">&lt;&lt;timed 5s&gt;&gt;
+You&#39;re not alone in here.
+&lt;&lt;/timed&gt;&gt;
+&lt;&lt;timed 10s&gt;&gt;
+Have you found them already?
+&lt;&lt;/timed&gt;&gt;
+&lt;&lt;timed 15s&gt;&gt;
+Keep looking.
+&lt;&lt;/timed&gt;&gt;
+&lt;&lt;timed 20s&gt;&gt;
+There may not be a way to win, but you can still [[break the loop|Intro part 3]]
+&lt;&lt;/timed&gt;&gt;
+&lt;&lt;timed 23s&gt;&gt;
+Find entropy.
 &lt;&lt;/timed&gt;&gt;</tw-passagedata></tw-storydata>
 	<script id="script-sugarcube" type="text/javascript">
 	/*! SugarCube JS */

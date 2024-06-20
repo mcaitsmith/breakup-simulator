@@ -11,12 +11,12 @@ label intro2:
 
     "Finally, they say it:"
 
-    "'I think we should break up.'"
+    "\"I think we should break up.\""
 
     "Somewhere in the world, a semi-truck merges into the next lane without looking, causing a six car collision."
 
     menu:
-        "'Why?'":
+        "\"Why?\"":
             jump intro3
         "Stay silent":
             jump intro3

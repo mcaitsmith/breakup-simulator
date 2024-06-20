@@ -15,13 +15,13 @@ label why_not:
     $ accepting_bass_bass_on = False
     $ attacking_bass_tubas_on = False
     $ feigning_bass_bass_choir_on = False
-    $ attacking_accepting_avoiding_core_piano_lead_on = True
-    $ attacking_accepting_avoiding_core_piano_rhythm_on = False
+    $ attacking_accepting_avoiding_core_piano_lead_on = True # base
+    $ attacking_accepting_avoiding_core_piano_rhythm_on = True
     $ entropy_core_marimba_rhythm_on = False
     $ entropy_core_xylophone_lead_on = False
     $ feigning_begging_core_harp_lead_on = False
     $ feigning_begging_core_harp_rhythm_on = False
-    $ accepting_harmony_cellos_on = True
+    $ accepting_harmony_cellos_on = True # base
     $ accepting_harmony_violas_on = False
     $ accepting_harmony_violins_2_on = False
     $ attacking_harmony_french_horns_on = False
@@ -33,10 +33,10 @@ label why_not:
     $ accepting_melody_violins_1_on = False
     $ accepting_melody_trumpets_on = False
     $ begging_melody_flutes_on = False
-    $ begging_melody_oboes_on = False
+    $ begging_melody_oboes_on = True
     $ feigning_melody_soprano_choir_on = False
     $ attacking_accepting_percussion_cymbals_on = False
-    $ update_layers(1) # update layer(s)
+    $ update_layers(3) # update layer(s)
 
     "'I-I don't know. Believe me, I've been trying really hard to make things work between us. But when I try to imagine my future, and I picture you there, it just doesn't feel right.'"
 

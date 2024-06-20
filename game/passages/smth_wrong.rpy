@@ -16,11 +16,11 @@ label smth_wrong:
     $ attacking_bass_tubas_on = False
     $ feigning_bass_bass_choir_on = False
     $ attacking_accepting_avoiding_core_piano_lead_on = False
-    $ attacking_accepting_avoiding_core_piano_rhythm_on = False
+    $ attacking_accepting_avoiding_core_piano_rhythm_on = True
     $ entropy_core_marimba_rhythm_on = False
     $ entropy_core_xylophone_lead_on = False
-    $ feigning_begging_core_harp_lead_on = False
-    $ feigning_begging_core_harp_rhythm_on = True
+    $ feigning_begging_core_harp_lead_on = True
+    $ feigning_begging_core_harp_rhythm_on = True # base
     $ accepting_harmony_cellos_on = False
     $ accepting_harmony_violas_on = False
     $ accepting_harmony_violins_2_on = False
@@ -36,7 +36,7 @@ label smth_wrong:
     $ begging_melody_oboes_on = False
     $ feigning_melody_soprano_choir_on = False
     $ attacking_accepting_percussion_cymbals_on = False
-    $ update_layers(1) # update layer(s)
+    $ update_layers(3) # update layer(s)
 
     "'No. No, you haven't done anything wrong. I swear, if you had, I would've told you. I want to make sure you know that there wasn't anything you could've done differently.' Their voice is shaking as they say this."
 

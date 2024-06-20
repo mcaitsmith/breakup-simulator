@@ -12,7 +12,7 @@
 ##
 ## The _() surrounding the string marks it as eligible for translation.
 
-define config.name = _("I Dont Think of You Anymore")
+define config.name = _("I Don't Think of You Anymore")
 
 
 ## Determines if the title given above is shown on the main menu screen. Set

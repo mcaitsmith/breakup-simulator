@@ -1,6 +1,6 @@
 ﻿# The script of the game goes in this file.
 
-# BRANCH: ATTACKING
+# BRANCH: ATTACKING/ACCEPTING
 
 # PASSAGE NAME: give up the key
 
@@ -30,7 +30,7 @@ label give_up:
     $ begging_harmony_clarinets_on = False
     $ feigning_harmony_alto_choir_on = False
     $ feigning_harmony_tenor_choir_on = False
-    $ accepting_melody_violins_1_on = False
+    $ accepting_melody_violins_1_on = True
     $ accepting_melody_trumpets_on = False
     $ begging_melody_flutes_on = False
     $ begging_melody_oboes_on = False

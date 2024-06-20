@@ -8,6 +8,7 @@ define narrator = Character(kind=adv)
 
 # define location images
 image bg livingroom = "backgrounds/bg livingroom.png"
+image bg door = "backgrounds/bg door.png"
 # image bg office blur = im.Blur("backgrounds/bg office.png", 1.5) # blurred version
 
 # image policelights:

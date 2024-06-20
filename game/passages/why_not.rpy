@@ -1,6 +1,6 @@
 ﻿# The script of the game goes in this file.
 
-# BRANCH: BEGGING
+# BRANCH: BEGGING/PASSIVE
 
 # PASSAGE NAME: "Why not?"
 
@@ -15,7 +15,7 @@ label why_not:
     $ accepting_bass_bass_on = False
     $ attacking_bass_tubas_on = False
     $ feigning_bass_bass_choir_on = False
-    $ attacking_accepting_avoiding_core_piano_lead_on = False
+    $ attacking_accepting_avoiding_core_piano_lead_on = True
     $ attacking_accepting_avoiding_core_piano_rhythm_on = False
     $ entropy_core_marimba_rhythm_on = False
     $ entropy_core_xylophone_lead_on = False

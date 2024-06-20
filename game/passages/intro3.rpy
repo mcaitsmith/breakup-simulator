@@ -5,6 +5,9 @@
 label intro3:
 
     if ending >= 2:
+
+        scene bg livingroom with fade
+
         "You blink and suddenly they're here again. You've been given another chance to get it right this time."
 
     "'I've been thinking for a while and...' Their voice trails off. They're clearly trying to find the words to soften the blow. But the more they search, the less it seems like they can find them. Something changes in their face. You assume this means they're accepting their role. They have no choice but to hurt you."

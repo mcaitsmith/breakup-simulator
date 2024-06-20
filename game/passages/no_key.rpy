@@ -1,5 +1,7 @@
 ﻿# The script of the game goes in this file.
 
+# BRANCH: PASSIVE
+
 # PASSAGE NAME: "No."
 
 label no_key:

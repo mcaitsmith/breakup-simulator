@@ -10,6 +10,9 @@ label intro3:
 
         "You blink and suddenly they're here again. You've been given another chance to get it right this time."
 
+        window hide
+        pause 1.0
+
     "'I've been thinking for a while and...' Their voice trails off. They're clearly trying to find the words to soften the blow. But the more they search, the less it seems like they can find them. Something changes in their face. You assume this means they're accepting their role. They have no choice but to hurt you."
 
     "'I don't see a future with you.'" 

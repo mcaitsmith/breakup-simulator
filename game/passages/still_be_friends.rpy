@@ -48,6 +48,6 @@ label still_be_friends:
 
     menu:
         "'Why not?'":
-            jump why_not
+            jump why_not_friends
         "Let them go":
             jump let_go

@@ -38,29 +38,29 @@ label ending4:
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(1) # update layer(s)
 
-    scene black with fade
+    scene black with Dissolve(3.0)
 
-    nvl clear
+    window hide
     pause 5.0
 
     "You were close that time."
 
-    nvl clear
+    window hide
     pause 10.0
 
     "Did they seem angry? Sad? Nostalgic? Did they say anything about me?"
 
-    nvl clear
+    window hide
     pause 15.0
 
     "Play harder into those feelings. Press as many buttons as you can." 
 
-    nvl clear
+    window hide
     pause 20.0
 
     "If you try hard enough you can keep them forever."
 
-    nvl clear
+    window hide
     pause 23.0
 
     "Everything will be perfect."

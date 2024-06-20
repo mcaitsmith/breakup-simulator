@@ -38,29 +38,29 @@ label ending6:
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(1) # update layer(s)
 
-    scene black with fade
+    scene black with Dissolve(3.0)
 
-    nvl clear
+    window hide
     pause 5.0
 
     "You saw a future?"
 
-    nvl clear
+    window hide
     pause 10.0
 
     "There is no future. Not if they don't love you anymore."
 
-    nvl clear
+    window hide
     pause 15.0
 
     "Can someone wake up and just stop loving you?" 
 
-    nvl clear
+    window hide
     pause 20.0
 
     "Or is it just natural for attraction to ebb and flow?"
 
-    nvl clear
+    window hide
     pause 23.0
 
     "I want to forget so badly but I can't. It never stops."

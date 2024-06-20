@@ -36,7 +36,7 @@ label moment:
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(1) # update layer(s)
 
-    nvl clear
+    window hide
     pause 180.0
 
     $ stop_layers(3) # stop playing layers

@@ -6,7 +6,7 @@ label intro3:
 
     if ending >= 2:
 
-        scene bg livingroom with fade
+        scene bg livingroom with Dissolve(3.0)
 
         "You blink and suddenly they're here again. You've been given another chance to get it right this time."
 

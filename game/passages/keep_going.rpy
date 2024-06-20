@@ -44,12 +44,12 @@ label keep_going:
 
     "The two of you sit in silence."
 
-    nvl clear
+    window hide
     pause 5.0
 
     "You aren't sure anymore if what you did here was right, but you did what felt necessary in the moment." 
 
-    nvl clear
+    window hide
     pause 10.0
 
     menu:

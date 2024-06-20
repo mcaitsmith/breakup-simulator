@@ -40,7 +40,7 @@ label loop:
 
     "I know that you'll leave the loop soon, likely already planning on it, but do you think you could do me a favor?"
 
-    nvl clear
+    window hide
     pause 10.0
 
     "Stay with me for just a moment. Share the silence with me for as long as you can. Then leave when you're ready. I promise I'll let go this time."

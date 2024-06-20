@@ -38,29 +38,29 @@ label ending2:
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(1) # update layer(s)
 
-    scene black with fade
+    scene black with Dissolve(3.0)
 
-    nvl clear
+    window hide
     pause 5.0
 
     "You did it wrong."
 
-    nvl clear
+    window hide
     pause 10.0
 
     "I don't know what it was that you said, but somewhere in there you said the wrong thing."
 
-    nvl clear
+    window hide
     pause 15.0
 
     "If you lose them, you will die alone and you will deserve it." 
 
-    nvl clear
+    window hide
     pause 20.0
 
     "Go back. Find the correct path."
 
-    nvl clear
+    window hide
     pause 23.0
 
     "You CAN make them stay."

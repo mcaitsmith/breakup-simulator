@@ -36,6 +36,8 @@ label entropy:
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(1) # update layer(s)
 
+    scene black with Dissolve(3.0)
+
     "So. How long have you been here for?"
 
     "How many pages have you clicked through? ..... [options]?"

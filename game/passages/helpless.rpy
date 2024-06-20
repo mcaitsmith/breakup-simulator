@@ -38,7 +38,7 @@ label helpless:
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(1) # update layer(s)
 
-    scene bg door with fade
+    scene bg door with Dissolve(3.0)
 
     "As they leave the apartment, it's just you and" 
 

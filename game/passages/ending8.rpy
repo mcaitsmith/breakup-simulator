@@ -36,29 +36,29 @@ label ending8:
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(1) # update layer(s)
 
-    scene black with fade
+    scene black with Dissolve(3.0)
 
-    nvl clear
+    window hide
     pause 5.0
 
     "You're not alone in here."
 
-    nvl clear
+    window hide
     pause 10.0
 
     "Have you found them already?"
 
-    nvl clear
+    window hide
     pause 15.0
 
     "Keep looking." 
 
-    nvl clear
+    window hide
     pause 20.0
 
     "There may not be a way to win, but you can still break the loop."
 
-    nvl clear
+    window hide
     pause 23.0
 
     "Find entropy."

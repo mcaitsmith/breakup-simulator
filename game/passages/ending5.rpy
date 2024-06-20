@@ -38,29 +38,29 @@ label ending5:
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(1) # update layer(s)
 
-    scene black with fade
+    scene black with Dissolve(3.0)
 
-    nvl clear
+    window hide
     pause 5.0
 
     "Round and around we go."
 
-    nvl clear
+    window hide
     pause 10.0
 
     "Breaking up and getting back together again."
 
-    nvl clear
+    window hide
     pause 15.0
 
     "This is better than being alone, no?" 
 
-    nvl clear
+    window hide
     pause 20.0
 
     "I'll let you in on a secret though"
 
-    nvl clear
+    window hide
     pause 23.0
 
     "There is a way to break the loop."

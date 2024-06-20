@@ -38,29 +38,29 @@ label ending3:
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(1) # update layer(s)
 
-    scene black with fade
+    scene black with Dissolve(3.0)
 
-    nvl clear
+    window hide
     pause 5.0
 
     "No. No. No. That can't be it."
 
-    nvl clear
+    window hide
     pause 10.0
 
     "Stop fucking this up."
 
-    nvl clear
+    window hide
     pause 15.0
 
     "We can win this, I promise. Everything will be just like it was before. Just keep holding on, keep trying, keep going through different possibilities." 
 
-    nvl clear
+    window hide
     pause 20.0
 
     "Don't fucking stop. Don't you ever stop."
 
-    nvl clear
+    window hide
     pause 25.0
 
     "You're a loser."

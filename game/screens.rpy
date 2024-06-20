@@ -161,6 +161,7 @@ style say_dialogue:
     ypos gui.dialogue_ypos
 
     adjust_spacing False
+    line_leading -15
 
 ## Input screen ################################################################
 ##
@@ -747,10 +748,16 @@ screen preferences():
                     textbutton _("After Choices") action Preference("after choices", "toggle")
                     textbutton _("Transitions") action InvertSelected(Preference("transitions", "toggle"))
 
+                vbox:
+                    style_prefix "radio"
+                    label _("Text Font")
+                    textbutton _("Gloria")  action Preference("font transform", "gloria")
+                    textbutton _("Caveat")  action Preference("font transform", "caveat")
+
                 ## Additional vboxes of type "radio_pref" or "check_pref" can be
                 ## added here, to add additional creator-defined preferences.
 
-            null height (4 * gui.pref_spacing)
+            null height (2 * gui.pref_spacing)
 
             hbox:
                 style_prefix "slider"

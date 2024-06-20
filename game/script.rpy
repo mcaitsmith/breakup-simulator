@@ -3,10 +3,11 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define narrator = Character(kind=nvl)
+# define narrator = Character(kind=nvl)
+define narrator = Character(kind=adv)
 
 # define location images
-# image bg main = "backgrounds/bg office.png"
+image bg livingroom = "backgrounds/bg livingroom.png"
 # image bg office blur = im.Blur("backgrounds/bg office.png", 1.5) # blurred version
 
 # image policelights:
@@ -146,7 +147,7 @@ init python:
         accepting_harmony_violas = 1 if accepting_harmony_violas_on else 0
         accepting_harmony_violins_2 = 1 if accepting_harmony_violins_2_on else 0
         attacking_harmony_french_horns = 1 if attacking_harmony_french_horns_on else 0
-        attacking_harmony_trombones = 1 if accepting_harmony_trombones_on else 0
+        attacking_harmony_trombones = 1 if attacking_harmony_trombones_on else 0
         begging_harmony_bassoons = 1 if begging_harmony_bassoons_on else 0
         begging_harmony_clarinets = 1 if begging_harmony_clarinets_on else 0
         feigning_harmony_alto_choir = 1 if feigning_harmony_alto_choir_on else 0
@@ -187,14 +188,66 @@ init python:
         renpy.music.set_volume(feigning_melody_soprano_choir, delay=delay, channel='FEIGNING MELODY Soprano Choir')
         renpy.music.set_volume(attacking_accepting_percussion_cymbals, delay=delay, channel='ATTACKING-ACCEPTING PERCUSSION Cymbals')
 
+init -1500 python hide:
+    def gloria(f):
+        return "fonts/GloriaHallelujah-Regular.ttf"
+
+    config.font_transforms["gloria"] = gloria
+    # gui.text_font = "fonts/GloriaHallelujah-Regular.ttf"
+
+    def caveat(f):
+        return "fonts/Caveat-VariableFont_wght.ttf"
+    
+    config.font_transforms["caveat"] = caveat
+    config.ftfont_scale["fonts/Caveat-VariableFont_wght.ttf"] = 1.2
+    config.ftfont_vertical_extent_scale["fonts/Caveat-VariableFont_wght.ttf"] = 1.3
+    # gui.text_font = "fonts/GloriaHallelujah-Regular.ttf"
+
 # The game starts here.
 
 label start:
 
+    # fadeout intro music
+    stop music fadeout 3.0
+    pause 5.0
+
+    # initialize music layers
+    $ entropy_accent_glockenspiel_on = False
+    $ entropy_accent_tubular_bells_on = False
+    $ entropy_accent_viola_pluck_on = False
+    $ entropy_accent_violin_pluck_on = False
+    $ accepting_bass_bass_on = False
+    $ attacking_bass_tubas_on = False
+    $ feigning_bass_bass_choir_on = False
+    $ attacking_accepting_avoiding_core_piano_lead_on = False
+    $ attacking_accepting_avoiding_core_piano_rhythm_on = False
+    $ entropy_core_marimba_rhythm_on = False
+    $ entropy_core_xylophone_lead_on = False
+    $ feigning_begging_core_harp_lead_on = False
+    $ feigning_begging_core_harp_rhythm_on = False
+    $ accepting_harmony_cellos_on = False
+    $ accepting_harmony_violas_on = False
+    $ accepting_harmony_violins_2_on = False
+    $ attacking_harmony_french_horns_on = False
+    $ attacking_harmony_trombones_on = False
+    $ begging_harmony_bassoons_on = False
+    $ begging_harmony_clarinets_on = False
+    $ feigning_harmony_alto_choir_on = False
+    $ feigning_harmony_tenor_choir_on = False
+    $ accepting_melody_violins_1_on = False
+    $ accepting_melody_trumpets_on = False
+    $ begging_melody_flutes_on = False
+    $ begging_melody_oboes_on = False
+    $ feigning_melody_soprano_choir_on = False
+    $ attacking_accepting_percussion_cymbals_on = False
+
+    $ update_layers(0) # update layer(s)
+
+    # initialize game variables
     $ options = 0
     $ entropy = 0
     $ ending = 0
 
-    play music bg_music
+    # play music bg_music
 
     jump intro

@@ -7,6 +7,8 @@ label moment:
     nvl clear
     pause 180.0
 
+    $ stop_layers(3) # stop playing layers
+
     "Thank You."
 
     return

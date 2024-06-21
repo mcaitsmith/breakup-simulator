@@ -36,7 +36,7 @@ label deserve_better:
     $ begging_melody_oboes_on = False
     $ feigning_melody_soprano_choir_on = False
     $ attacking_accepting_percussion_cymbals_on = False
-    $ update_layers(1) # update layer(s)
+    $ update_layers(3) # update layer(s)
 
     "\"That's a way to put it, I guess. I think we both deserve better. You deserve someone who is sure about being with you. I deserve...I don't know. Maybe to just be by myself for a while.\""
 

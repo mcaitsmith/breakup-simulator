@@ -36,7 +36,7 @@ label push:
     $ begging_melody_oboes_on = False
     $ feigning_melody_soprano_choir_on = False
     $ attacking_accepting_percussion_cymbals_on = True
-    $ update_layers(1) # update layer(s)
+    $ update_layers(3) # update layer(s)
 
     "\"It wasn't \'random\', I've felt this way for a while now.\"" 
 

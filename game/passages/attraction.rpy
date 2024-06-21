@@ -36,7 +36,7 @@ label attraction:
     $ begging_melody_oboes_on = True
     $ feigning_melody_soprano_choir_on = False
     $ attacking_accepting_percussion_cymbals_on = False
-    $ update_layers(1) # update layer(s)
+    $ update_layers(3) # update layer(s)
 
     "Have you not made your way around the dialogue tree enough to understand yet?"
 

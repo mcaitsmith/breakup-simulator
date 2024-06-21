@@ -36,7 +36,7 @@ label keep_going:
     $ begging_melody_oboes_on = False
     $ feigning_melody_soprano_choir_on = True
     $ attacking_accepting_percussion_cymbals_on = False
-    $ update_layers(1) # update layer(s)
+    $ update_layers(3) # update layer(s)
 
     "In a moment of glorious precision, you assemble a verbal dronestrike comprised of every insecurity, every fear, every vulnerability, and you unleash it upon them in a single sentence." 
 

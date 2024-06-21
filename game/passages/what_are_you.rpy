@@ -36,7 +36,7 @@ label what_are_you:
     $ begging_melody_oboes_on = False
     $ feigning_melody_soprano_choir_on = False
     $ attacking_accepting_percussion_cymbals_on = False
-    $ update_layers(1) # update layer(s)
+    $ update_layers(3) # update layer(s)
 
     "\"It might be easier for you if you stopped digging, accepted that this is a game you were never meant to win.\""
 

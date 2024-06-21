@@ -36,7 +36,7 @@ label refuse:
     $ begging_melody_oboes_on = True
     $ feigning_melody_soprano_choir_on = False
     $ attacking_accepting_percussion_cymbals_on = False
-    $ update_layers(1) # update layer(s)
+    $ update_layers(3) # update layer(s)
 
     "You realize that as long as this key is in your hand they won't leave. You can hold on forever. You can keep them prisoner in this moment in time forever."
 

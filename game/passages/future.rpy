@@ -36,7 +36,7 @@ label future:
     $ begging_melody_oboes_on = False
     $ feigning_melody_soprano_choir_on = False
     $ attacking_accepting_percussion_cymbals_on = False
-    $ update_layers(1) # update layer(s)
+    $ update_layers(3) # update layer(s)
 
     "\"I know.\" They avoid making eye contact with you. \"We both said a lot of things about the future, about living together and getting married. I meant those things when I said them.\""
 

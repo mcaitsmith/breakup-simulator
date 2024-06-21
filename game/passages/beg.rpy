@@ -36,7 +36,7 @@ label beg:
     $ begging_melody_oboes_on = False
     $ feigning_melody_soprano_choir_on = False
     $ attacking_accepting_percussion_cymbals_on = False
-    $ update_layers(1) # update layer(s)
+    $ update_layers(3) # update layer(s)
 
     "You start pleading with them to stay. You offer change, growth, even the possibility that they don't need to spend the \"future\" with you, just a few more months. A few more weeks. Just one more day. They can have anything as long as they stay."
 

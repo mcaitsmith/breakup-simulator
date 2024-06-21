@@ -42,7 +42,9 @@ label stay_silent:
 
     "No matter how they try to sugarcoat their words, they continue to feel like daggers."
 
-    "They reach into their pocket and hand you the spare key to your apartment. You remember having spare keys made over a year ago. You were together on a trip to the hardware store and saw the key copying machine by the checkout line. It was a sweet spur of the moment gesture that demonstrated the trust they had in you. You could go to their place and they could come to yours. It meant your lives were truly becoming enmeshed." 
+    "They reach into their pocket and hand you the spare key to your apartment. You remember having spare keys made over a year ago. You were together on a trip to the hardware store and saw the key copying machine by the checkout line." 
+
+    "It was a sweet spur of the moment gesture that demonstrated the trust they had in you. You could go to their place and they could come to yours. It meant your lives were truly becoming enmeshed." 
 
     menu:
         "Give them the key to their apartment":

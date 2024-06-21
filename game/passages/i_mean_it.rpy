@@ -34,7 +34,8 @@ label i_mean_it:
     $ begging_melody_oboes_on = False
     $ feigning_melody_soprano_choir_on = False
     $ attacking_accepting_percussion_cymbals_on = False
-    $ update_layers(3) # update layer(s)
+    $ update_layers(5) # update layer(s)
+    pause(2.0)
 
     "You understand what this will mean though, right? They will be gone forever. It'll just be you in a sea of silence."
 

@@ -36,7 +36,8 @@ label why_not:
     $ begging_melody_oboes_on = True
     $ feigning_melody_soprano_choir_on = False
     $ attacking_accepting_percussion_cymbals_on = False
-    $ update_layers(3) # update layer(s)
+    $ update_layers(5) # update layer(s)
+    pause(2.0)
 
     "\"I-I don't know. Believe me, I've been trying really hard to make things work between us. But when I try to imagine my future, and I picture you there, it just doesn't feel right.\""
 

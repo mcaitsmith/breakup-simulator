@@ -34,7 +34,8 @@ label ending8:
     $ begging_melody_oboes_on = False
     $ feigning_melody_soprano_choir_on = False
     $ attacking_accepting_percussion_cymbals_on = False
-    $ update_layers(3) # update layer(s)
+    $ update_layers(5) # update layer(s)
+    pause(2.0)
 
     scene black with Dissolve(3.0)
 
@@ -44,22 +45,22 @@ label ending8:
     "You're not alone in here."
 
     window hide
-    pause 10.0
+    pause 5.0
 
     "Have you found them already?"
 
     window hide
-    pause 15.0
+    pause 5.0
 
     "Keep looking." 
 
     window hide
-    pause 20.0
+    pause 5.0
 
     "There may not be a way to win, but you can still break the loop."
 
     window hide
-    pause 23.0
+    pause 5.0
 
     "Find entropy."
 

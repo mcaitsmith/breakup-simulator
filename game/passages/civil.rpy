@@ -36,7 +36,8 @@ label civil:
     $ begging_melody_oboes_on = True
     $ feigning_melody_soprano_choir_on = False
     $ attacking_accepting_percussion_cymbals_on = False
-    $ update_layers(3) # update layer(s)
+    $ update_layers(5) # update layer(s)
+    pause(2.0)
 
     "\"No,\" they say resolutely. \"It's not about \"being civil\". I don't think my life can move forward with you in it.\""
 

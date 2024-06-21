@@ -36,7 +36,8 @@ label f_you:
     $ begging_melody_oboes_on = False
     $ feigning_melody_soprano_choir_on = False
     $ attacking_accepting_percussion_cymbals_on = False
-    $ update_layers(3) # update layer(s)
+    $ update_layers(5) # update layer(s)
+    pause(2.0)
 
     "The words surprise you as they pass your lips. Each syllable is like a stone being hurled at your partner. How dare they do this to you?"
 

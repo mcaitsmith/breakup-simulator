@@ -36,7 +36,8 @@ label ending5:
     $ begging_melody_oboes_on = False
     $ feigning_melody_soprano_choir_on = False
     $ attacking_accepting_percussion_cymbals_on = False
-    $ update_layers(3) # update layer(s)
+    $ update_layers(5) # update layer(s)
+    pause(2.0)
 
     scene black with Dissolve(3.0)
 
@@ -46,22 +47,22 @@ label ending5:
     "Round and around we go."
 
     window hide
-    pause 10.0
+    pause 5.0
 
     "Breaking up and getting back together again."
 
     window hide
-    pause 15.0
+    pause 5.0
 
     "This is better than being alone, no?" 
 
     window hide
-    pause 20.0
+    pause 5.0
 
     "I'll let you in on a secret though"
 
     window hide
-    pause 23.0
+    pause 5.0
 
     "There is a way to break the loop."
 

@@ -36,7 +36,8 @@ label ending4:
     $ begging_melody_oboes_on = False
     $ feigning_melody_soprano_choir_on = False
     $ attacking_accepting_percussion_cymbals_on = False
-    $ update_layers(3) # update layer(s)
+    $ update_layers(5) # update layer(s)
+    pause(2.0)
 
     scene black with Dissolve(3.0)
 
@@ -46,22 +47,22 @@ label ending4:
     "You were close that time."
 
     window hide
-    pause 10.0
+    pause 5.0
 
     "Did they seem angry? Sad? Nostalgic? Did they say anything about me?"
 
     window hide
-    pause 15.0
+    pause 5.0
 
     "Play harder into those feelings. Press as many buttons as you can." 
 
     window hide
-    pause 20.0
+    pause 5.0
 
     "If you try hard enough you can keep them forever."
 
     window hide
-    pause 23.0
+    pause 5.0
 
     "Everything will be perfect."
 

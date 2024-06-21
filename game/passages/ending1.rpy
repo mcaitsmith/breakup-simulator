@@ -36,7 +36,8 @@ label ending1:
     $ begging_melody_oboes_on = False
     $ feigning_melody_soprano_choir_on = False
     $ attacking_accepting_percussion_cymbals_on = False
-    $ update_layers(3) # update layer(s)
+    $ update_layers(5) # update layer(s)
+    pause(2.0)
 
     scene black with Dissolve(3.0)
 
@@ -46,22 +47,22 @@ label ending1:
     "You know it's your fault, right?"
 
     window hide
-    pause 10.0
+    pause 5.0
 
     "There was a way to make them stay."
 
     window hide
-    pause 15.0
+    pause 5.0
 
     "You just need to find the right thing to say that will make them love you again." 
 
     window hide
-    pause 20.0
+    pause 5.0
 
     "Go back. Try again."
 
     window hide
-    pause 23.0
+    pause 5.0
 
     "Get it right this time."
 

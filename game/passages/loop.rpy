@@ -34,14 +34,15 @@ label loop:
     $ begging_melody_oboes_on = False
     $ feigning_melody_soprano_choir_on = False
     $ attacking_accepting_percussion_cymbals_on = False
-    $ update_layers(3) # update layer(s)
+    $ update_layers(5) # update layer(s)
+    pause(2.0)
 
     "There wasn't one, at least that's what they told me. I haven't been able to believe it yet, or leave this place, since it happened."
 
     "I know that you'll leave the loop soon, likely already planning on it, but do you think you could do me a favor?"
 
     window hide
-    pause 10.0
+    pause 5.0
 
     "Stay with me for just a moment. Share the silence with me for as long as you can. Then leave when you're ready. I promise I'll let go this time."
 

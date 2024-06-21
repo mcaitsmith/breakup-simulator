@@ -36,7 +36,8 @@ label give_me_smth:
     $ begging_melody_oboes_on = False
     $ feigning_melody_soprano_choir_on = True
     $ attacking_accepting_percussion_cymbals_on = False
-    $ update_layers(3) # update layer(s)
+    $ update_layers(5) # update layer(s)
+    pause(2.0)
 
     "\"That wouldn't be fair to you. We have to leave it at \"no\" for now.\""
 

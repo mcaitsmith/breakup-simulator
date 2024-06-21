@@ -36,7 +36,8 @@ label ending2:
     $ begging_melody_oboes_on = False
     $ feigning_melody_soprano_choir_on = False
     $ attacking_accepting_percussion_cymbals_on = False
-    $ update_layers(3) # update layer(s)
+    $ update_layers(5) # update layer(s)
+    pause(2.0)
 
     scene black with Dissolve(3.0)
 
@@ -46,22 +47,22 @@ label ending2:
     "You did it wrong."
 
     window hide
-    pause 10.0
+    pause 5.0
 
     "I don't know what it was that you said, but somewhere in there you said the wrong thing."
 
     window hide
-    pause 15.0
+    pause 5.0
 
     "If you lose them, you will die alone and you will deserve it." 
 
     window hide
-    pause 20.0
+    pause 5.0
 
     "Go back. Find the correct path."
 
     window hide
-    pause 23.0
+    pause 5.0
 
     "You CAN make them stay."
 

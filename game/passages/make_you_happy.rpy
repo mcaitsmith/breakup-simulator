@@ -36,7 +36,8 @@ label make_you_happy:
     $ begging_melody_oboes_on = False
     $ feigning_melody_soprano_choir_on = False
     $ attacking_accepting_percussion_cymbals_on = False
-    $ update_layers(3) # update layer(s)
+    $ update_layers(5) # update layer(s)
+    pause(2.0)
 
     "\"There isn't anyone, I told you.\" They clench their fists and raise their voice. Whatever sentimentality was keeping them gentle towards you, it isn't endless. There is a limit. If you keep pushing this, you may regret it."
 

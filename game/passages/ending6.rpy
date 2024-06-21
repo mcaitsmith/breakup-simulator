@@ -36,7 +36,8 @@ label ending6:
     $ begging_melody_oboes_on = False
     $ feigning_melody_soprano_choir_on = False
     $ attacking_accepting_percussion_cymbals_on = False
-    $ update_layers(3) # update layer(s)
+    $ update_layers(5) # update layer(s)
+    pause(2.0)
 
     scene black with Dissolve(3.0)
 
@@ -46,22 +47,22 @@ label ending6:
     "You saw a future?"
 
     window hide
-    pause 10.0
+    pause 5.0
 
     "There is no future. Not if they don't love you anymore."
 
     window hide
-    pause 15.0
+    pause 5.0
 
     "Can someone wake up and just stop loving you?" 
 
     window hide
-    pause 20.0
+    pause 5.0
 
     "Or is it just natural for attraction to ebb and flow?"
 
     window hide
-    pause 23.0
+    pause 5.0
 
     "I want to forget so badly but I can't. It never stops."
 

@@ -36,7 +36,8 @@ label keep_going:
     $ begging_melody_oboes_on = False
     $ feigning_melody_soprano_choir_on = True
     $ attacking_accepting_percussion_cymbals_on = False
-    $ update_layers(3) # update layer(s)
+    $ update_layers(5) # update layer(s)
+    pause(2.0)
 
     "In a moment of glorious precision, you assemble a verbal dronestrike comprised of every insecurity, every fear, every vulnerability, and you unleash it upon them in a single sentence." 
 
@@ -50,7 +51,7 @@ label keep_going:
     "You aren't sure anymore if what you did here was right, but you did what felt necessary in the moment." 
 
     window hide
-    pause 10.0
+    pause 5.0
 
     menu:
         "And yet.":

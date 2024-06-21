@@ -36,7 +36,8 @@ label key:
     $ begging_melody_oboes_on = False
     $ feigning_melody_soprano_choir_on = True
     $ attacking_accepting_percussion_cymbals_on = False
-    $ update_layers(3) # update layer(s)
+    $ update_layers(5) # update layer(s)
+    pause(2.0)
 
     "You reach into your pocket and get your keychain. You twirl the keys around and remove the matching spare key to their apartment." 
 

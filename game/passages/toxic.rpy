@@ -36,7 +36,8 @@ label toxic:
     $ begging_melody_oboes_on = False
     $ feigning_melody_soprano_choir_on = False
     $ attacking_accepting_percussion_cymbals_on = False
-    $ update_layers(3) # update layer(s)
+    $ update_layers(5) # update layer(s)
+    pause(2.0)
 
     "A flood of insults begins to pour from you. Every frustration you've ever had with this person is unleashed in a volley of hatred and vitriol." 
 

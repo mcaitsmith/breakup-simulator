@@ -34,33 +34,34 @@ label punish:
     $ begging_melody_oboes_on = False
     $ feigning_melody_soprano_choir_on = False
     $ attacking_accepting_percussion_cymbals_on = False
-    $ update_layers(3) # update layer(s)
+    $ update_layers(5) # update layer(s)
+    pause(2.0)
 
     "That's okay. I am too. I've no business judging."
 
     "If you would just let go of the past, you'd be free. You know that, right? Will you let yourself believe that?"
 
     window hide
-    pause 10.0
+    pause 5.0
 
     "You don't get to answer that one. No more choices. No more branches."
 
     "Most people are afraid of me. They think I'm here to rob them of their joy." 
 
     window hide
-    pause 15.0
+    pause 5.0
 
     "Absurd."
 
     window hide
-    pause 20.0
+    pause 5.0
 
     "I give their joy essence. They don't know it but it's the fleeting nature of joy that gives it such zest. Instead they fight me, try desperatyely to hold onto what was never theirs to begin with. Gluttons."
 
     "They should thank ME."
 
     window hide
-    pause 25.0
+    pause 5.0
 
     menu:
         "But they don't.":

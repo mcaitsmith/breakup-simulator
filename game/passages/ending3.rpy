@@ -36,7 +36,8 @@ label ending3:
     $ begging_melody_oboes_on = False
     $ feigning_melody_soprano_choir_on = False
     $ attacking_accepting_percussion_cymbals_on = False
-    $ update_layers(3) # update layer(s)
+    $ update_layers(5) # update layer(s)
+    pause(2.0)
 
     scene black with Dissolve(3.0)
 
@@ -46,22 +47,22 @@ label ending3:
     "No. No. No. That can't be it."
 
     window hide
-    pause 10.0
+    pause 5.0
 
     "Stop fucking this up."
 
     window hide
-    pause 15.0
+    pause 5.0
 
     "We can win this, I promise. Everything will be just like it was before. Just keep holding on, keep trying, keep going through different possibilities." 
 
     window hide
-    pause 20.0
+    pause 5.0
 
     "Don't fucking stop. Don't you ever stop."
 
     window hide
-    pause 25.0
+    pause 5.0
 
     "You're a loser."
 

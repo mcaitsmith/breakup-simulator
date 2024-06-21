@@ -34,17 +34,18 @@ label focus:
     $ begging_melody_oboes_on = False
     $ feigning_melody_soprano_choir_on = False
     $ attacking_accepting_percussion_cymbals_on = False
-    $ update_layers(3) # update layer(s)
+    $ update_layers(5) # update layer(s)
+    pause(2.0)
 
     "Sorry. I get carried away sometimes." 
     window hide
-    pause 10.0
+    pause 5.0
     "I told you before but in case it wasn't clear, there was never any winning this game. I lied to you. I think I just wanted someone to share in this feeling with me, even if just for a moment:"
     window hide
-    pause 15.0
+    pause 5.0
     "I was in love once. They left. There was nothing that could be done. No matter how many times I played out the infinite possibilities in my head, there was no saving things." 
     window hide
-    pause 20.0
+    pause 5.0
     "I've been trapped in this loop for as long as I can remember, trying to find the mistake I made." 
 
     jump loop

@@ -36,7 +36,8 @@ label ending7:
     $ begging_melody_oboes_on = False
     $ feigning_melody_soprano_choir_on = False
     $ attacking_accepting_percussion_cymbals_on = False
-    $ update_layers(3) # update layer(s)
+    $ update_layers(5) # update layer(s)
+    pause(2.0)
 
     scene black with Dissolve(3.0)
 
@@ -46,22 +47,22 @@ label ending7:
     "Have you considered that the problem is just who you are?"
 
     window hide
-    pause 10.0
+    pause 5.0
 
     "There is something innately wrong with you."
 
     window hide
-    pause 15.0
+    pause 5.0
 
     "The only way someone would stay with you is if you held them prisoner." 
 
     window hide
-    pause 20.0
+    pause 5.0
 
     "What does it take to make someone love you?"
 
     window hide
-    pause 23.0
+    pause 5.0
 
     "Do you remember what their face looked like anymore?"
 

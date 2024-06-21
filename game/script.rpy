@@ -22,6 +22,15 @@ image bg door = "backgrounds/bg door.png"
 #     linear .45 alpha 0.0
 #     repeat
 
+transform begging_tint:
+    matrixcolor TintMatrix("#f27cffff")
+transform passive_tint:
+    matrixcolor TintMatrix("#7d7fffff")
+transform feigning_tint:
+    matrixcolor TintMatrix("#ebffaee8")
+transform begging_passive_tint:
+    matrixcolor TintMatrix("#9779c6cb")
+
 # define sound effects & music
 # define sfx_clatter = "audio/sfx/Clatter_SantaSecret_SFX.wav"
 define bg_music = "audio/V1_Saying_Goodbye.ogg"

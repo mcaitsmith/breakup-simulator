@@ -16,10 +16,10 @@ label you_do_you:
     $ attacking_bass_tubas_on = False
     $ feigning_bass_bass_choir_on = True
     $ attacking_accepting_avoiding_core_piano_lead_on = False
-    $ attacking_accepting_avoiding_core_piano_rhythm_on = False
+    $ attacking_accepting_avoiding_core_piano_rhythm_on = True
     $ entropy_core_marimba_rhythm_on = False
     $ entropy_core_xylophone_lead_on = False
-    $ feigning_begging_core_harp_lead_on = False
+    $ feigning_begging_core_harp_lead_on = True
     $ feigning_begging_core_harp_rhythm_on = False
     $ accepting_harmony_cellos_on = False
     $ accepting_harmony_violas_on = False

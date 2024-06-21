@@ -4,7 +4,7 @@
 
 label no:
 
-    "Then you have to let me go."
+    "\"Then you have to let me go.\""
 
     menu:
         "Let them go":

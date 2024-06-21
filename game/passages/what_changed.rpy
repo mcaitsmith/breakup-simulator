@@ -16,10 +16,10 @@ label what_changed:
     $ attacking_bass_tubas_on = False
     $ feigning_bass_bass_choir_on = False
     $ attacking_accepting_avoiding_core_piano_lead_on = False
-    $ attacking_accepting_avoiding_core_piano_rhythm_on = False
+    $ attacking_accepting_avoiding_core_piano_rhythm_on = True
     $ entropy_core_marimba_rhythm_on = False
     $ entropy_core_xylophone_lead_on = False
-    $ feigning_begging_core_harp_lead_on = False
+    $ feigning_begging_core_harp_lead_on = True
     $ feigning_begging_core_harp_rhythm_on = False
     $ accepting_harmony_cellos_on = False
     $ accepting_harmony_violas_on = False
@@ -44,14 +44,14 @@ label what_changed:
 
     "\"There was a moment where I loved you and then there was a moment where I didn't. I don't know what triggered the switch. It could've been nothing at all. That happens to people sometimes.\""
 
-    "\"Nothing at all\"? Can people just stop loving you overnight? They go to bed with a full heart and wake up with an empty one?"
+    "'Nothing at all'? Can people just stop loving you overnight? They go to bed with a full heart and wake up with an empty one?"
 
     "Perhaps the answer to this question exists elsewhere."
 
     menu:
-        "\"Do you still love me?'":
+        "\"Do you still love me?\"":
             jump still_love_me
-        "\"What the hell does that even mean?!'":
+        "\"What the hell does that even mean?!\"":
             jump still_love_me2
         "\"Don't spare my feelings. Just say if you still love me.\"":
             jump still_love_me

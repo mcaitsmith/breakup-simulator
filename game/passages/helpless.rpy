@@ -8,10 +8,10 @@ label helpless:
 
     $ options += 1
 
-    $ entropy_accent_glockenspiel_on = False
-    $ entropy_accent_tubular_bells_on = False
-    $ entropy_accent_viola_pluck_on = False
-    $ entropy_accent_violin_pluck_on = False
+    $ entropy_accent_glockenspiel_on = True
+    $ entropy_accent_tubular_bells_on = True
+    $ entropy_accent_viola_pluck_on = True
+    $ entropy_accent_violin_pluck_on = True
     $ accepting_bass_bass_on = False
     $ attacking_bass_tubas_on = False
     $ feigning_bass_bass_choir_on = False

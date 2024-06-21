@@ -15,13 +15,13 @@ label why_not:
     $ accepting_bass_bass_on = False
     $ attacking_bass_tubas_on = False
     $ feigning_bass_bass_choir_on = False
-    $ attacking_accepting_avoiding_core_piano_lead_on = True # base
+    $ attacking_accepting_avoiding_core_piano_lead_on = True
     $ attacking_accepting_avoiding_core_piano_rhythm_on = True
     $ entropy_core_marimba_rhythm_on = False
     $ entropy_core_xylophone_lead_on = False
     $ feigning_begging_core_harp_lead_on = False
     $ feigning_begging_core_harp_rhythm_on = False
-    $ accepting_harmony_cellos_on = True # base
+    $ accepting_harmony_cellos_on = True
     $ accepting_harmony_violas_on = False
     $ accepting_harmony_violins_2_on = False
     $ attacking_harmony_french_horns_on = False
@@ -45,7 +45,7 @@ label why_not:
     "This is not the same person you've loved for the past two years. Something has changed. There has to have been something."
 
     menu:
-        "\"Did I do something wrong?'":
+        "\"Did I do something wrong?\"":
             jump smth_wrong
         "\"I understand.\"" if options >= 20:
             jump i_understand

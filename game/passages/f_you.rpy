@@ -16,7 +16,7 @@ label f_you:
     $ attacking_bass_tubas_on = False
     $ feigning_bass_bass_choir_on = False
     $ attacking_accepting_avoiding_core_piano_lead_on = True
-    $ attacking_accepting_avoiding_core_piano_rhythm_on = False
+    $ attacking_accepting_avoiding_core_piano_rhythm_on = True
     $ entropy_core_marimba_rhythm_on = False
     $ entropy_core_xylophone_lead_on = False
     $ feigning_begging_core_harp_lead_on = False
@@ -42,7 +42,7 @@ label f_you:
 
     "If you're clever, you can deal as much damage to them as they've dealt to you. Maybe then they'll see how horrible what they're doing is and change their mind."
 
-    "\"Look, I-I know I'm blindsiding you here, I know this is shitty, but can we try to at least be mature adults?'"
+    "\"Look, I-I know I'm blindsiding you here, I know this is shitty, but can we try to at least be mature adults?\""
 
     menu:
         "\"No, seriously, fuck you.\"":

@@ -16,10 +16,10 @@ label you_lied:
     $ attacking_bass_tubas_on = False
     $ feigning_bass_bass_choir_on = False
     $ attacking_accepting_avoiding_core_piano_lead_on = False
-    $ attacking_accepting_avoiding_core_piano_rhythm_on = False
+    $ attacking_accepting_avoiding_core_piano_rhythm_on = True
     $ entropy_core_marimba_rhythm_on = False
     $ entropy_core_xylophone_lead_on = False
-    $ feigning_begging_core_harp_lead_on = False
+    $ feigning_begging_core_harp_lead_on = True
     $ feigning_begging_core_harp_rhythm_on = False
     $ accepting_harmony_cellos_on = False
     $ accepting_harmony_violas_on = False
@@ -43,7 +43,7 @@ label you_lied:
     "But they did. They never cared about you. All that time they stole from you was just a way of biding their time until someone better came along. That's got to be it."
 
     menu:
-        "\"There's someone else isn't there?'":
+        "\"There's someone else isn't there?\"":
             jump someone_else
         "Stay silent.":
             jump stay_silent

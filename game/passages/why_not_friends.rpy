@@ -8,7 +8,7 @@ label why_not_friends:
 
     "\"I'm afraid that if we stay friends we might...relapse.\""
 
-    "What does that mean? \"Relapse\"?"
+    "What does that mean? 'Relapse'?"
 
     "They mean, if they continue to talk to you, they will effortlessly find their way back into your arms. They can't trust themselves to not want you." 
 

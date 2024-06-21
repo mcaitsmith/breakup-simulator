@@ -14,12 +14,12 @@ label deserve_better:
     $ entropy_accent_violin_pluck_on = False
     $ accepting_bass_bass_on = False
     $ attacking_bass_tubas_on = False
-    $ feigning_bass_bass_choir_on = False
+    $ feigning_bass_bass_choir_on = True
     $ attacking_accepting_avoiding_core_piano_lead_on = False
-    $ attacking_accepting_avoiding_core_piano_rhythm_on = False
+    $ attacking_accepting_avoiding_core_piano_rhythm_on = True
     $ entropy_core_marimba_rhythm_on = False
     $ entropy_core_xylophone_lead_on = False
-    $ feigning_begging_core_harp_lead_on = False
+    $ feigning_begging_core_harp_lead_on = True
     $ feigning_begging_core_harp_rhythm_on = False
     $ accepting_harmony_cellos_on = False
     $ accepting_harmony_violas_on = False
@@ -41,7 +41,7 @@ label deserve_better:
     "\"That's a way to put it, I guess. I think we both deserve better. You deserve someone who is sure about being with you. I deserve...I don't know. Maybe to just be by myself for a while.\""
 
     menu:
-        "\"Do you think there's any chance of us...being together again?'":
+        "\"Do you think there's any chance of us...being together again?\"":
             jump any_chance
-        "\"Good luck with that!'":
+        "\"Good luck with that!\"":
             jump let_go

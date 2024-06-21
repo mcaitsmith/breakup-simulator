@@ -19,8 +19,8 @@ label arent_telling_me:
     $ attacking_accepting_avoiding_core_piano_rhythm_on = False
     $ entropy_core_marimba_rhythm_on = False
     $ entropy_core_xylophone_lead_on = False
-    $ feigning_begging_core_harp_lead_on = False
-    $ feigning_begging_core_harp_rhythm_on = False
+    $ feigning_begging_core_harp_lead_on = True
+    $ feigning_begging_core_harp_rhythm_on = True
     $ accepting_harmony_cellos_on = False
     $ accepting_harmony_violas_on = False
     $ accepting_harmony_violins_2_on = False

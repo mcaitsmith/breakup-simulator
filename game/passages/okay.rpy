@@ -16,7 +16,7 @@ label okay:
     $ attacking_bass_tubas_on = False
     $ feigning_bass_bass_choir_on = False
     $ attacking_accepting_avoiding_core_piano_lead_on = False
-    $ attacking_accepting_avoiding_core_piano_rhythm_on = False
+    $ attacking_accepting_avoiding_core_piano_rhythm_on = True
     $ entropy_core_marimba_rhythm_on = False
     $ entropy_core_xylophone_lead_on = False
     $ feigning_begging_core_harp_lead_on = True
@@ -45,5 +45,5 @@ label okay:
     menu:
         "\"Yeah, it's fine. You do you.\"":
             jump you_do_you
-        "\"I was getting sort of bored with you too anyway!'":
+        "\"I was getting sort of bored with you too anyway!\"":
             jump you_do_you

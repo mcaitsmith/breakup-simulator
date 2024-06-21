@@ -40,7 +40,7 @@ label key:
 
     "You reach into your pocket and get your keychain. You twirl the keys around and remove the matching spare key to their apartment." 
 
-    "At one point in the past you had a pretty nasty fight. After saying your apologies, you handed them this key and said 'give this back to me when I've earned it.'" 
+    "At one point in the past you had a pretty nasty fight. After saying your apologies, you handed them this key and said \"give this back to me when I've earned it.\"" 
 
     "They ended up giving you the key back after a few hours."
 

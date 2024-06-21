@@ -38,7 +38,7 @@ label stay_silent:
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(1) # update layer(s)
 
-    "'I can't tell you how sorry I really am. You mean so much to me, and the time we've spent together has meant the world. But I think this is what's best for both of us.'" 
+    "\"I can't tell you how sorry I really am. You mean so much to me, and the time we've spent together has meant the world. But I think this is what's best for both of us.\"" 
 
     "No matter how they try to sugarcoat their words, they continue to feel like daggers."
 

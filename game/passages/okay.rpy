@@ -38,12 +38,12 @@ label okay:
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(1) # update layer(s)
 
-    "'W-what?' They seem a bit caught off guard by your response." 
+    "\"W-what?\" They seem a bit caught off guard by your response." 
 
     "As am I. What are you doing? Is this reverse psychology?"
 
     menu:
-        "'Yeah, it's fine. You do you.'":
+        "\"Yeah, it's fine. You do you.\"":
             jump you_do_you
-        "'I was getting sort of bored with you too anyway!'":
+        "\"I was getting sort of bored with you too anyway!'":
             jump you_do_you

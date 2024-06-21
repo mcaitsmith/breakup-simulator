@@ -40,14 +40,14 @@ label still_be_friends:
 
     "You can tell they aren't sure what the answer to this question is."
 
-    "'Maybe.' Their eyes trail around the room, looking at everything except you."
+    "\"Maybe.\" Their eyes trail around the room, looking at everything except you."
 
     "They have no intention of being friends with you or even having contact with you. They don't want to see you ever again."
 
     "They're disgusted by the thought of even being around you."
 
     menu:
-        "'Why not?'":
+        "\"Why not?'":
             jump why_not_friends
         "Let them go":
             jump let_go

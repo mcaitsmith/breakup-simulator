@@ -38,11 +38,11 @@ label understand_what:
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(1) # update layer(s)
 
-    "'You're not the problem here.'" 
+    "\"You're not the problem here.\"" 
 
     "Impossible. If that were true you wouldn't be stuck here. You'd be somewhere else."
 
-    "'What I am...I can't do what you want me to do. It isn't in my nature.'"
+    "\"What I am...I can't do what you want me to do. It isn't in my nature.\""
 
     menu:
         "What are you?":

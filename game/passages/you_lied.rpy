@@ -38,12 +38,12 @@ label you_lied:
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(1) # update layer(s)
 
-    "'I really didn't.'" 
+    "\"I really didn't.\"" 
 
     "But they did. They never cared about you. All that time they stole from you was just a way of biding their time until someone better came along. That's got to be it."
 
     menu:
-        "'There's someone else isn't there?'":
+        "\"There's someone else isn't there?'":
             jump someone_else
         "Stay silent.":
             jump stay_silent

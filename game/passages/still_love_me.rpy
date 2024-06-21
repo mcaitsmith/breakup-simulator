@@ -38,10 +38,10 @@ label still_love_me:
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(1) # update layer(s)
 
-    "'Yes.' They say this quickly, then just as quickly mutter, 'I don't know.'"
+    "\"Yes.\" They say this quickly, then just as quickly mutter, \"I don't know.\""
 
     menu:
-        "'You still love me.'":
+        "\"You still love me.\"":
             jump still_love_me2
-        "'How can you not know?'":
+        "\"How can you not know?'":
             jump still_love_me2

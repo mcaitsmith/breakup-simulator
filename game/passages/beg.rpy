@@ -38,9 +38,9 @@ label beg:
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(1) # update layer(s)
 
-    "You start pleading with them to stay. You offer change, growth, even the possibility that they don't need to spend the 'future' with you, just a few more months. A few more weeks. Just one more day. They can have anything as long as they stay."
+    "You start pleading with them to stay. You offer change, growth, even the possibility that they don't need to spend the \"future\" with you, just a few more months. A few more weeks. Just one more day. They can have anything as long as they stay."
 
-    "'Please don't make this difficult,' they say. 'Just let me go.'"
+    "\"Please don't make this difficult,\" they say. \"Just let me go.\""
 
     "There's a million more things you want to say, but as you try, the words are stopped by the fear that anything you say will just make your situation worse." 
 
@@ -51,5 +51,5 @@ label beg:
     menu:
         "Let them go":
             jump let_go
-        "'Do you think we can still be friends?'" if options >= 10:
+        "\"Do you think we can still be friends?'" if options >= 10:
             jump still_be_friends

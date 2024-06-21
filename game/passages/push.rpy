@@ -38,12 +38,12 @@ label push:
     $ attacking_accepting_percussion_cymbals_on = True
     $ update_layers(1) # update layer(s)
 
-    "'It wasn't 'random', I've felt this way for a while now.'" 
+    "\"It wasn't \'random\', I've felt this way for a while now.\"" 
 
     "Bullshit. This is all some sadistic game to them. Good people don't just throw other people away so flippantly." 
 
     menu:
-        "'Fuck you.'":
+        "\"Fuck you.\"":
             jump f_you
         "Stop pushing this.":
             jump stay_silent

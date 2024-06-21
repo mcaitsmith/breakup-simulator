@@ -4,7 +4,7 @@
 
 label make_you_love_me:
 
-    "'I won't,' they say plainly. Their face goes blank, looking completely different from the way you remember it."
+    "\"I won't,\" they say plainly. Their face goes blank, looking completely different from the way you remember it."
 
     "You can relive this memory as many times as you like, imagine all the different things you want to say, imagine all the things I might have said in response, but it doesn't change reality. I left. You didn't do anything wrong, you didn't miss any important cues, I just left because I felt like it. There was nothing you could do." 
 

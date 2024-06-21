@@ -38,10 +38,10 @@ label deserve_better:
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(1) # update layer(s)
 
-    "'That's a way to put it, I guess. I think we both deserve better. You deserve someone who is sure about being with you. I deserve...I don't know. Maybe to just be by myself for a while.'"
+    "\"That's a way to put it, I guess. I think we both deserve better. You deserve someone who is sure about being with you. I deserve...I don't know. Maybe to just be by myself for a while.\""
 
     menu:
-        "'Do you think there's any chance of us...being together again?'":
+        "\"Do you think there's any chance of us...being together again?'":
             jump any_chance
-        "'Good luck with that!'":
+        "\"Good luck with that!'":
             jump let_go

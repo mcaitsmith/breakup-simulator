@@ -38,12 +38,12 @@ label still_love_me2:
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(1) # update layer(s)
 
-    "'I still love you. The feeling is still there, but I don't feel like I belong with you anymore. I don't feel like we have anything in common anymore.'"
+    "\"I still love you. The feeling is still there, but I don't feel like I belong with you anymore. I don't feel like we have anything in common anymore.\""
 
     menu:
-        "'How could we not have anything in common? That doesn't make any sense!'":
+        "\"How could we not have anything in common? That doesn't make any sense!'":
             jump arent_telling_me
-        "'This is normal for a healthy relationship! Attraction is meant to ebb and flow!'":
+        "\"This is normal for a healthy relationship! Attraction is meant to ebb and flow!'":
             jump attraction
         "Reluctantly accept what they're saying to you as truth.":
             jump stay_silent

@@ -38,10 +38,10 @@ label you_do_you:
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(1) # update layer(s)
 
-    "'Y-you're cool with us breaking up?...That's great, actually. I was worried this would be a whole dragged out thing.'"
+    "\"Y-you're cool with us breaking up?...That's great, actually. I was worried this would be a whole dragged out thing.\""
 
     menu:
-        "'Oh, not at all. Honestly, you deserve better.'":
+        "\"Oh, not at all. Honestly, you deserve better.\"":
             jump deserve_better
-        "'Oh, not at all. Honestly, I deserve better.'":
+        "\"Oh, not at all. Honestly, I deserve better.\"":
             jump deserve_better

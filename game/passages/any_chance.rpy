@@ -38,10 +38,10 @@ label any_chance:
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(1) # update layer(s)
 
-    "'I don't want to make any promises. Maybe.' They clench their fists. 'No. The answer has to be no.'"
+    "\"I don't want to make any promises. Maybe.\" They clench their fists. \"No. The answer has to be no.\""
 
     menu:
-        "'Please just say maybe. Give me something.'":
+        "\"Please just say maybe. Give me something.\"":
             jump give_me_smth
-        "'Make up your mind.'":
+        "\"Make up your mind.\"":
             jump make_up_mind

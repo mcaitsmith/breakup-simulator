@@ -38,24 +38,24 @@ label persist:
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(1) # update layer(s)
 
-    "'I don't want that!'"
+    "\"I don't want that!'"
 
     "That may have been the wrong option. Far far too desparate sounding to be worthy of love. Maybe you'll get it on the next go around?"
 
-    "'God! This is why I can't be around you! This is why we can't be friends!'"
+    "\"God! This is why I can't be around you! This is why we can't be friends!'"
 
     "As they shout this, they quickly stand up and move towards the door."
 
-    "'I can't see you anymore. Ever.'"
+    "\"I can't see you anymore. Ever.\""
 
     menu:
-        "'Wait, please, just talk to me.'":
+        "\"Wait, please, just talk to me.\"":
             jump helpless
-        "'Fine, I don't need you anyway.'":
+        "\"Fine, I don't need you anyway.\"":
             jump helpless
-        "'Please stay. Please please stay.'":
+        "\"Please stay. Please please stay.\"":
             jump helpless
-        "'FUCK YOU!'":
+        "\"FUCK YOU!'":
             jump helpless
-        "'Don't say that don't say that please for the love of God don't say that.'":
+        "\"Don't say that don't say that please for the love of God don't say that.\"":
             jump helpless

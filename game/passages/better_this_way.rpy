@@ -38,11 +38,11 @@ label better_this_way:
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(1) # update layer(s)
 
-    "'I'm really glad to hear you say that.'" 
+    "\"I'm really glad to hear you say that.\"" 
 
     "They take your hand and squeeze it tightly." 
 
-    "'Believe me when I say this was the hardest thing I've ever had to do.'"
+    "\"Believe me when I say this was the hardest thing I've ever had to do.\""
 
     "Do you actually understand or is this just another ploy to make them change their mind?"
 

@@ -43,5 +43,5 @@ label i_mean_it:
     menu:
         "I can handle it.":
             jump i_want_this
-        "'Do you think we can still be friends?'":
+        "\"Do you think we can still be friends?'":
             jump still_be_friends

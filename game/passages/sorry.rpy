@@ -38,7 +38,7 @@ label sorry:
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(1) # update layer(s)
 
-    "'It's fine. You have a right to be angry.'"
+    "\"It's fine. You have a right to be angry.\""
 
     "You look at their hands and see that their fingers are red and scarred. They've been picking at their nails incessantly for days." 
 
@@ -46,7 +46,7 @@ label sorry:
 
     "But not today. Today the hurdle is you. And you proved their fears warranted."
 
-    "'I never wanted to blindside you,' they say." 
+    "\"I never wanted to blindside you,\" they say." 
 
     menu:
         "Continue":

@@ -46,7 +46,7 @@ label toxic:
 
     "After several minutes of taking your verbal abuse, your ex partner just sits there. Hollow." 
 
-    "'I deserve that,' they say, holding back tears." 
+    "\"I deserve that,\" they say, holding back tears." 
 
     "Damn right." 
 

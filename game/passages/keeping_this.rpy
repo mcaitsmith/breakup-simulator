@@ -40,7 +40,7 @@ label keeping_this:
 
     "Your ex looks at you with a twinge of frustration." 
 
-    "'Please. Can I have my key back?'"
+    "\"Please. Can I have my key back?'"
 
     menu:
         "Give up.":

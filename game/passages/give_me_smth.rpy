@@ -38,12 +38,12 @@ label give_me_smth:
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(1) # update layer(s)
 
-    "'That wouldn't be fair to you. We have to leave it at 'no' for now.'"
+    "\"That wouldn't be fair to you. We have to leave it at \"no\" for now.\""
 
-    "Fair to you?! This whole thing has been unfair to you. Pulling the rug out from under you was unfair. They want to talk about 'fair'? Bullshit."
+    "Fair to you?! This whole thing has been unfair to you. Pulling the rug out from under you was unfair. They want to talk about \"fair\"? Bullshit."
 
     menu:
-        "'Fine.'":
+        "\"Fine.\"":
             jump let_go
-        "'Fuck you.'":
+        "\"Fuck you.\"":
             jump let_go

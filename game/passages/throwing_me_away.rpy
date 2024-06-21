@@ -38,7 +38,7 @@ label throwing_me_away:
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(1) # update layer(s)
 
-    "'I'm not throwing you away.'" 
+    "\"I'm not throwing you away.\"" 
 
     "You notice their hands shaking." 
 
@@ -47,9 +47,9 @@ label throwing_me_away:
     "Guilt? Shame? An opening in their armor?"
 
     menu:
-        "'Yes you are.'":
+        "\"Yes you are.\"":
             jump yes_you_are
-        "'Whatever.'":
+        "\"Whatever.\"":
             jump stay_silent
-        "'Do you think we can still be friends?'":
+        "\"Do you think we can still be friends?'":
             jump still_be_friends

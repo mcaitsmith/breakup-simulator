@@ -38,12 +38,12 @@ label civil:
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(1) # update layer(s)
 
-    "'No,' they say resolutely. 'It's not about 'being civil'. I don't think my life can move forward with you in it.'"
+    "\"No,\" they say resolutely. \"It's not about \"being civil\". I don't think my life can move forward with you in it.\""
 
     menu:
-        "'Please try. I don't want to live without you.'":
+        "\"Please try. I don't want to live without you.\"":
             jump persist
-        "'If you know that we'll end up together, then why fight that?'":
+        "\"If you know that we'll end up together, then why fight that?'":
             jump persist
-        "'Whatever.'":
+        "\"Whatever.\"":
             jump let_go

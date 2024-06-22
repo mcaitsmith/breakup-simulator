@@ -41,6 +41,8 @@ label helpless:
 
     scene bg door with Dissolve(3.0)
 
+    $ loops += 1
+
     "As they leave the apartment, it's just you and" 
 
     menu:

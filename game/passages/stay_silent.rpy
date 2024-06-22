@@ -37,7 +37,9 @@ label stay_silent:
     $ feigning_melody_soprano_choir_on = False
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(5) # update layer(s)
-    pause(2.0)
+
+    scene bg livingroom with Dissolve(3.0):
+        passive_tint
 
     "\"I can't tell you how sorry I really am. You mean so much to me, and the time we've spent together has meant the world. But I think this is what's best for both of us.\"" 
 

@@ -37,7 +37,9 @@ label i_understand:
     $ feigning_melody_soprano_choir_on = False
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(5) # update layer(s)
-    pause(2.0)
+
+    scene bg livingroom with Dissolve(3.0):
+        accepting_tint
 
     "\"Y-you do?\" They seem surprised and a bit relieved. It seems clear that they don't want to hurt you. But at the same time it seems like they're not sacrificing any more of their happiness to protect your feelings."
 
@@ -52,5 +54,7 @@ label i_understand:
     menu:
         "\"I guess.\"":
             jump stay_silent
-        "\"It's better this way.\"":
+        "{color=#6a2ad8}\"It's better this way.\"{/color}" if ending == 8 and hint == True and entropy == 0:
+            jump better_this_way
+        "\"It's better this way.\"" if (ending < 8 or hint == False or (ending == 8 and entropy == 1)):
             jump better_this_way

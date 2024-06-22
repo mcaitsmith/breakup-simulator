@@ -11,9 +11,17 @@ label intro2:
 
     "Finally, they say it:"
 
-    "\"I think we should break up.\""
+    scene bg livingroom with { "master" : Dissolve(3.0) }:
+        entropy_tint
+
+    "{cps=15}\"I think we should break up.\"{/cps}"
+
+    window hide
+    pause 3.0
 
     "Somewhere in the world, a semi-truck merges into the next lane without looking, causing a six car collision."
+
+    pause 2.0
 
     menu:
         "\"Why?\"":

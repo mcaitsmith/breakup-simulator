@@ -37,7 +37,9 @@ label throwing_me_away:
     $ feigning_melody_soprano_choir_on = False
     $ attacking_accepting_percussion_cymbals_on = True
     $ update_layers(5) # update layer(s)
-    pause(2.0)
+
+    scene bg livingroom with Dissolve(3.0):
+        attacking_tint
 
     "\"I'm not throwing you away.\"" 
 
@@ -48,7 +50,9 @@ label throwing_me_away:
     "Guilt? Shame? An opening in their armor?"
 
     menu:
-        "\"Yes you are.\"":
+        "{color=#6a2ad8}\"Yes you are.\"{/color}" if ending == 8 and hint == True and entropy == 0:
+            jump yes_you_are
+        "\"Yes you are.\"" if (ending < 8 or hint == False or (ending == 8 and entropy == 1)):
             jump yes_you_are
         "\"Whatever.\"":
             jump stay_silent

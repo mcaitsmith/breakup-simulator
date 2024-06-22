@@ -41,11 +41,11 @@ label entropy:
 
     "So. How long have you been here for?"
 
-    "How many pages have you clicked through? ..... [options]?"
+    "How many choices have you clicked through? ..... [options]?"
 
     "That many?" 
 
-    "How many times have you gone through this entire loop?..... [ending]?"
+    "How many times have you gone through this entire loop?..... [loops]?"
 
     "A glutton for punishment aren't you?"
 

@@ -23,13 +23,27 @@ image bg door = "backgrounds/bg door.png"
 #     repeat
 
 transform begging_tint:
-    matrixcolor TintMatrix("#f27cffff")
+    matrixcolor TintMatrix("#f59cffff") * SaturationMatrix(0.5) * BrightnessMatrix(0.2)
 transform passive_tint:
-    matrixcolor TintMatrix("#7d7fffff")
+    # matrixcolor TintMatrix("#dcdcdcff")
+    matrixcolor SaturationMatrix(0.3)
 transform feigning_tint:
-    matrixcolor TintMatrix("#ebffaee8")
+    matrixcolor TintMatrix("#ecffb2de") * SaturationMatrix(0.3) * BrightnessMatrix(0.1)
+transform attacking_tint:
+    matrixcolor TintMatrix("#ff7070cb")
+transform accepting_tint:
+    matrixcolor TintMatrix("#b5ffc9ce") * SaturationMatrix(0.5) * BrightnessMatrix(0.2)
+transform entropy_tint:
+    matrixcolor TintMatrix("#6a2ad8b3") * SaturationMatrix(0.05) * BrightnessMatrix(0.1)
 transform begging_passive_tint:
-    matrixcolor TintMatrix("#9779c6cb")
+    # matrixcolor TintMatrix("#f9beffff")
+    matrixcolor TintMatrix("#f59cffff")
+transform attacking_accepting_tint:
+    # matrixcolor TintMatrix("#bc79c6cb")
+    matrixcolor TintMatrix("#ff7070cb")
+transform feigning_accepting_tint:
+    # matrixcolor TintMatrix("#95c679cb")
+    matrixcolor TintMatrix("#ecffb2de") * SaturationMatrix(0.3) * BrightnessMatrix(0.1)
 
 # define sound effects & music
 define sfx_hover = "audio/sfx/MenuBack.ogg"
@@ -257,6 +271,8 @@ label start:
     $ options = 0
     $ entropy = 0
     $ ending = 0
+    $ loops = 0
+    $ hint = False
 
     # play music bg_music
 

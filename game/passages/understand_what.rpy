@@ -37,7 +37,9 @@ label understand_what:
     $ feigning_melody_soprano_choir_on = False
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(5) # update layer(s)
-    pause(2.0)
+
+    scene bg livingroom with Dissolve(3.0):
+        entropy_tint
 
     "\"You're not the problem here.\"" 
 
@@ -48,5 +50,7 @@ label understand_what:
     menu:
         "What are you?":
             jump what_are_you
-        "You're Entropy" if entropy == 1:
+        "{color=#59ba73}You're Entropy{/color}" if ending == 8 and hint == True and entropy == 1:
+            jump entropy
+        "You're Entropy" if (ending < 8 or (ending == 8 and hint == False)) and entropy == 1:
             jump entropy

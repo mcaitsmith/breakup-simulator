@@ -37,7 +37,9 @@ label let_go:
     $ feigning_melody_soprano_choir_on = False
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(5) # update layer(s)
-    pause(2.0)
+
+    scene bg livingroom with Dissolve(3.0):
+        accepting_tint
 
     "You watch as they stand up to leave. There's a moment where you consider if maybe one more word would change their mind. There has to be some sequence of sounds uttered from your pathetic ape mouth that will convince them not to leave. But by the time you find them, they're already at the door."
 

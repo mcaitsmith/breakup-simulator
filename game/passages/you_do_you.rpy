@@ -37,12 +37,18 @@ label you_do_you:
     $ feigning_melody_soprano_choir_on = False
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(5) # update layer(s)
-    pause(2.0)
+
+    scene bg livingroom with Dissolve(3.0):
+        feigning_tint
 
     "\"Y-you're cool with us breaking up?...That's great, actually. I was worried this would be a whole dragged out thing.\""
 
     menu:
-        "\"Oh, not at all. Honestly, you deserve better.\"":
+        "{color=#6a2ad8}\"Oh, not at all. Honestly, you deserve better.\"{/color}" if ending == 8 and hint == True and entropy == 0:
             jump deserve_better
-        "\"Oh, not at all. Honestly, I deserve better.\"":
+        "\"Oh, not at all. Honestly, you deserve better.\"" if (ending < 8 or hint == False or (ending == 8 and entropy == 1)):
+            jump deserve_better
+        "{color=#6a2ad8}\"Oh, not at all. Honestly, I deserve better.\"{/color}" if ending == 8 and hint == True and entropy == 0:
+            jump deserve_better
+        "\"Oh, not at all. Honestly, I deserve better.\"" if (ending < 8 or hint == False or (ending == 8 and entropy == 1)):
             jump deserve_better

@@ -37,7 +37,9 @@ label toxic:
     $ feigning_melody_soprano_choir_on = False
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(5) # update layer(s)
-    pause(2.0)
+
+    scene bg livingroom with Dissolve(3.0):
+        attacking_tint
 
     "A flood of insults begins to pour from you. Every frustration you've ever had with this person is unleashed in a volley of hatred and vitriol." 
 

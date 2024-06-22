@@ -37,7 +37,9 @@ label what_are_you:
     $ feigning_melody_soprano_choir_on = False
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(5) # update layer(s)
-    pause(2.0)
+
+    scene bg livingroom with Dissolve(3.0):
+        entropy_tint
 
     "\"It might be easier for you if you stopped digging, accepted that this is a game you were never meant to win.\""
 

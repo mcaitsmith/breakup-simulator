@@ -37,12 +37,18 @@ label attraction:
     $ feigning_melody_soprano_choir_on = False
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(5) # update layer(s)
-    pause(2.0)
+
+    scene bg livingroom with Dissolve(3.0):
+        begging_tint
 
     "Have you not made your way around the dialogue tree enough to understand yet?"
 
     menu:
-        "Understand what?":
+        "{color=#59ba73}Understand what?{/color}" if ending == 8 and hint == True and entropy == 1:
             jump understand_what
-        "I think so.":
+        "Understand what?" if ending < 8 or hint == False or (ending == 8 and entropy == 0):
+            jump understand_what
+        "{color=#59ba73}I think so.{/color}" if ending == 8 and hint == True and entropy == 1:
+            jump understand_what
+        "I think so." if ending < 8 or hint == False or (ending == 8 and entropy == 0):
             jump understand_what

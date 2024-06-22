@@ -37,7 +37,9 @@ label civil:
     $ feigning_melody_soprano_choir_on = False
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(5) # update layer(s)
-    pause(2.0)
+
+    scene bg livingroom with Dissolve(3.0):
+        begging_tint
 
     "\"No,\" they say resolutely. \"It's not about \"being civil\". I don't think my life can move forward with you in it.\""
 

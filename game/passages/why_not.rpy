@@ -50,7 +50,9 @@ label why_not:
     menu:
         "\"Did I do something wrong?\"":
             jump smth_wrong
-        "\"I understand.\"" if options >= 20:
+        "{color=#6a2ad8}\"I understand.\"{/color}"  if options >= 20 and ending == 8 and hint == True and entropy == 0:
+            jump i_understand
+        "\"I understand.\""  if options >= 20 and (ending < 8 or hint == False or (ending == 8 and entropy == 1)):
             jump i_understand
         "Stay silent.":
             jump stay_silent

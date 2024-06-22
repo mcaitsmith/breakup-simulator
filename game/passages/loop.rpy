@@ -35,7 +35,7 @@ label loop:
     $ feigning_melody_soprano_choir_on = False
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(5) # update layer(s)
-    pause(2.0)
+    pause(5.0)
 
     "There wasn't one, at least that's what they told me. I haven't been able to believe it yet, or leave this place, since it happened."
 

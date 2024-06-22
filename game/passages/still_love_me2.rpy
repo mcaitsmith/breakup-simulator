@@ -37,14 +37,18 @@ label still_love_me2:
     $ feigning_melody_soprano_choir_on = False
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(5) # update layer(s)
-    pause(2.0)
+
+    scene bg livingroom with Dissolve(3.0):
+        begging_tint
 
     "\"I still love you. The feeling is still there, but I don't feel like I belong with you anymore. I don't feel like we have anything in common anymore.\""
 
     menu:
         "\"How could we not have anything in common? That doesn't make any sense!\"":
             jump arent_telling_me
-        "\"This is normal for a healthy relationship! Attraction is meant to ebb and flow!\"":
+        "{color=#59ba73}\"This is normal for a healthy relationship! Attraction is meant to ebb and flow!\"{/color}" if ending == 8 and hint == True and entropy == 1:
+            jump attraction
+        "\"This is normal for a healthy relationship! Attraction is meant to ebb and flow!\"" if ending < 8 or hint == False or (ending == 8 and entropy == 0):
             jump attraction
         "Reluctantly accept what they're saying to you as truth.":
             jump stay_silent

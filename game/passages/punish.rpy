@@ -56,7 +56,7 @@ label punish:
     window hide
     pause 5.0
 
-    "I give their joy essence. They don't know it but it's the fleeting nature of joy that gives it such zest. Instead they fight me, try desperatyely to hold onto what was never theirs to begin with. Gluttons."
+    "I give their joy essence. They don't know it but it's the fleeting nature of joy that gives it such zest. Instead they fight me, try desperately to hold onto what was never theirs to begin with. Gluttons."
 
     "They should thank ME."
 

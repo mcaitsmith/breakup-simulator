@@ -37,7 +37,9 @@ label what_changed:
     $ feigning_melody_soprano_choir_on = False
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(5) # update layer(s)
-    pause(2.0)
+
+    scene bg livingroom with Dissolve(3.0):
+        begging_tint
 
     "\"I don't know. Nothing. Everything.\"" 
 
@@ -50,9 +52,15 @@ label what_changed:
     "Perhaps the answer to this question exists elsewhere."
 
     menu:
-        "\"Do you still love me?\"":
+        "{color=#59ba73}\"Do you still love me?\"{/color}" if ending == 8 and hint == True and entropy == 1:
             jump still_love_me
-        "\"What the hell does that even mean?!\"":
+        "\"Do you still love me?\"" if ending < 8 or hint == False or (ending == 8 and entropy == 0):
+            jump still_love_me
+        "{color=#59ba73}\"What the hell does that even mean?!\"{/color}" if ending == 8 and hint == True and entropy == 1:
             jump still_love_me2
-        "\"Don't spare my feelings. Just say if you still love me.\"":
+        "\"What the hell does that even mean?!\"" if ending < 8 or hint == False or (ending == 8 and entropy == 0):
+            jump still_love_me2
+        "{color=#59ba73}\"Don't spare my feelings. Just say if you still love me.\"{/color}" if ending == 8 and hint == True and entropy == 1:
+            jump still_love_me
+        "\"Don't spare my feelings. Just say if you still love me.\"" if ending < 8 or hint == False or (ending == 8 and entropy == 0):
             jump still_love_me

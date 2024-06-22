@@ -4,6 +4,8 @@
 
 label no:
 
+    pause(3.0)
+
     "\"Then you have to let me go.\""
 
     menu:

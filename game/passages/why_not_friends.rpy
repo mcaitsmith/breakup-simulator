@@ -6,6 +6,8 @@ label why_not_friends:
 
     $ options += 1
 
+    pause(3.0)
+
     "\"I'm afraid that if we stay friends we might...relapse.\""
 
     "What does that mean? 'Relapse'?"

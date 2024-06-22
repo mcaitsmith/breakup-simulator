@@ -35,7 +35,9 @@ label i_mean_it:
     $ feigning_melody_soprano_choir_on = False
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(5) # update layer(s)
-    pause(2.0)
+
+    scene bg livingroom with Dissolve(3.0):
+        accepting_tint
 
     "You understand what this will mean though, right? They will be gone forever. It'll just be you in a sea of silence."
 

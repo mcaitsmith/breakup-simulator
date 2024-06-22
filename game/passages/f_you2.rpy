@@ -37,7 +37,9 @@ label f_you2:
     $ feigning_melody_soprano_choir_on = False
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(5) # update layer(s)
-    pause(2.0)
+
+    scene bg livingroom with Dissolve(3.0):
+        attacking_tint
 
     "Your (now ex) partner begins to cry. If your goal was to do more damage to them than they can do to you, this is your opportunity."
 

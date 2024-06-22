@@ -37,12 +37,18 @@ label still_love_me:
     $ feigning_melody_soprano_choir_on = False
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(5) # update layer(s)
-    pause(2.0)
+
+    scene bg livingroom with Dissolve(3.0):
+        begging_tint
 
     "\"Yes.\" They say this quickly, then just as quickly mutter, \"I don't know.\""
 
     menu:
-        "\"You still love me.\"":
+        "{color=#59ba73}\"You still love me.\"{/color}" if ending == 8 and hint == True and entropy == 1:
             jump still_love_me2
-        "\"How can you not know?\"":
+        "\"You still love me.\"" if ending < 8 or hint == False or (ending == 8 and entropy == 0):
+            jump still_love_me2
+        "{color=#59ba73}\"How can you not know?\"{/color}" if ending == 8 and hint == True and entropy == 1:
+            jump still_love_me2
+        "\"How can you not know?\"" if ending < 8 or hint == False or (ending == 8 and entropy == 0):
             jump still_love_me2

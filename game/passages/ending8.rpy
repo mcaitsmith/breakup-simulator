@@ -67,3 +67,6 @@ label ending8:
     menu:
         "Try again":
             jump intro3
+        "Try again\n(I Need A Hint)" if loops > 8 and hint == False:
+            $ hint = True
+            jump intro3

@@ -37,7 +37,9 @@ label better_this_way:
     $ feigning_melody_soprano_choir_on = False
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(5) # update layer(s)
-    pause(2.0)
+
+    scene bg livingroom with Dissolve(3.0):
+        accepting_tint
 
     "\"I'm really glad to hear you say that.\"" 
 
@@ -50,5 +52,7 @@ label better_this_way:
     menu:
         "I mean it.":
             jump i_mean_it
-        "I'm still holding on to hope.":
+        "{color=#6a2ad8}I'm still holding on to hope.{/color}" if ending == 8 and hint == True and entropy == 0:
+            jump you_do_you
+        "I'm still holding on to hope." if (ending < 8 or hint == False or (ending == 8 and entropy == 1)):
             jump you_do_you

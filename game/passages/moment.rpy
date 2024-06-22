@@ -35,13 +35,15 @@ label moment:
     $ feigning_melody_soprano_choir_on = False
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(5) # update layer(s)
-    pause(2.0)
 
     window hide
-    pause 180.0
+    pause 60.0
 
-    $ stop_layers(3) # stop playing layers
+    $ stop_layers(5) # stop playing layers
 
     "Thank You."
+
+    window hide
+    pause 10.0
 
     return

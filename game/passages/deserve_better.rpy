@@ -37,12 +37,16 @@ label deserve_better:
     $ feigning_melody_soprano_choir_on = False
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(5) # update layer(s)
-    pause(2.0)
+
+    scene bg livingroom with Dissolve(3.0):
+        feigning_tint
 
     "\"That's a way to put it, I guess. I think we both deserve better. You deserve someone who is sure about being with you. I deserve...I don't know. Maybe to just be by myself for a while.\""
 
     menu:
-        "\"Do you think there's any chance of us...being together again?\"":
+        "{color=#6a2ad8}\"Do you think there's any chance of us...being together again?\"{/color}" if ending == 8 and hint == True and entropy == 0:
+            jump any_chance
+        "\"Do you think there's any chance of us...being together again?\"" if (ending < 8 or hint == False or (ending == 8 and entropy == 1)):
             jump any_chance
         "\"Good luck with that!\"":
             jump let_go

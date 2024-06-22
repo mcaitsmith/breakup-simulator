@@ -37,7 +37,9 @@ label i_want_this:
     $ feigning_melody_soprano_choir_on = False
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(5) # update layer(s)
-    pause(2.0)
+
+    scene bg livingroom with Dissolve(3.0):
+        accepting_tint
 
     "Maybe you have learned something after all." 
 

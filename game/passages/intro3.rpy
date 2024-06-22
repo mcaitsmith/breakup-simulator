@@ -58,11 +58,15 @@ label intro3:
             jump smth_wrong
         "\"Okay! No Problem!\"" if options >= 10:
             jump okay
-        "\"But I see a future with you.\"" if options >= 5:
+        "{color=#59ba73}\"But I see a future with you.\"{/color}" if options >= 5 and ending == 8 and entropy == 1 and hint == True:
+            jump future
+        "\"But I see a future with you.\"" if options >= 5 and (hint == False or ending < 8 or (ending == 8 and entropy == 0)):
             jump future
         "\"Fuck you.\"" if options >= 15:
             jump f_you
         "Stay silent." if options >= 5:
             jump stay_silent
-        "\"I understand.\"" if options >= 20:
+        "{color=#6a2ad8}\"I understand.\"{/color}"  if options >= 20 and ending == 8 and entropy == 0 and hint == True:
+            jump i_understand
+        "\"I understand.\""  if options >= 20 and (hint == False or ending < 8 or (ending == 8 and entropy == 1)):
             jump i_understand

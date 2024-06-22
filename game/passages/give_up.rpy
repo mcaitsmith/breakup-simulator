@@ -37,7 +37,9 @@ label give_up:
     $ feigning_melody_soprano_choir_on = False
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(5) # update layer(s)
-    pause(2.0)
+
+    scene bg livingroom with Dissolve(3.0):
+        attacking_accepting_tint
 
     "As you press the key into the palm of their hand, you feel a part of yourself disappear forever." 
 

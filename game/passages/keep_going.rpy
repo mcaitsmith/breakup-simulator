@@ -37,7 +37,9 @@ label keep_going:
     $ feigning_melody_soprano_choir_on = True
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(5) # update layer(s)
-    pause(2.0)
+
+    scene bg livingroom with Dissolve(3.0):
+        attacking_tint
 
     "In a moment of glorious precision, you assemble a verbal dronestrike comprised of every insecurity, every fear, every vulnerability, and you unleash it upon them in a single sentence." 
 
@@ -46,12 +48,12 @@ label keep_going:
     "The two of you sit in silence."
 
     window hide
-    pause 5.0
+    pause 3.0
 
     "You aren't sure anymore if what you did here was right, but you did what felt necessary in the moment." 
 
     window hide
-    pause 5.0
+    pause 3.0
 
     menu:
         "And yet.":

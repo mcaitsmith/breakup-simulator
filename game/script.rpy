@@ -32,8 +32,8 @@ transform begging_passive_tint:
     matrixcolor TintMatrix("#9779c6cb")
 
 # define sound effects & music
-# define sfx_clatter = "audio/sfx/Clatter_SantaSecret_SFX.wav"
-define bg_music = "audio/V1_Saying_Goodbye.ogg"
+define sfx_hover = "audio/sfx/MenuBack.ogg"
+define sfx_select = "audio/sfx/MenuSelect.ogg"
 
 init python:
     # define music channels

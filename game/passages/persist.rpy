@@ -51,6 +51,8 @@ label persist:
 
     "\"I can't see you anymore. Ever.\""
 
+    $ leave_exp = "relieved"
+
     menu:
         "\"Wait, please, just talk to me.\"":
             jump helpless

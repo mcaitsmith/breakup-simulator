@@ -59,4 +59,5 @@ label keep_going:
 
     menu:
         "And yet.":
+            $ leave_exp = "anxious"
             jump helpless

@@ -278,5 +278,6 @@ label start:
     $ chose_f_you = False
     $ chose_silent = False
     $ chose_understand = False
+    $ leave_exp = ""
 
     jump intro

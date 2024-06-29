@@ -39,7 +39,18 @@ label helpless:
     $ update_layers(5) # update layer(s)
     pause(2.0)
 
-    scene bg door with Dissolve(3.0)
+    scene bg door
+
+    if leave_exp == "neutral":
+        show ex leaving_neutral
+    elif leave_exp == "anxious":
+        show ex leaving_anxious
+    elif leave_exp == "frustrated":
+        show ex leaving_frustrated
+    elif leave_exp == "relieved":
+        show ex leaving_relieved
+
+    with Dissolve(3.0)
 
     $ loops += 1
 

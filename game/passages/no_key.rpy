@@ -19,4 +19,5 @@ label no_key:
 
     menu:
         "\"Wait. Don't go.\"":
+            $ leave_exp = "frustrated"
             jump helpless

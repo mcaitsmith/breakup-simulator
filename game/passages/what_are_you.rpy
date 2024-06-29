@@ -51,7 +51,9 @@ label what_are_you:
 
     pause(2.0)
 
-    scene bg door with Dissolve(3.0)
+    scene bg door
+    show ex leaving_entropy
+    with Dissolve(3.0)
 
     $ loops += 1
 

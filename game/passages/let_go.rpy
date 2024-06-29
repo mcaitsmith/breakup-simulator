@@ -45,4 +45,5 @@ label let_go:
 
     menu:
         "You're helpless to stop it.":
+            $ leave_exp = "neutral"
             jump helpless

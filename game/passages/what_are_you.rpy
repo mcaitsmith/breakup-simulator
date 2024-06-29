@@ -47,10 +47,16 @@ label what_are_you:
 
     "\"If you're truly desperate, then keep scurrying through this labyrinth of despair. You'll find your answer.\""
 
+    pause(2.0)
+
+    scene bg door with Dissolve(3.0)
+
+    $ loops += 1
+
     "It reaches for the door handle, then turns back to you."
 
     "\"When you have the answer, come visit me here once more. We can be more honest with each other then.\""
 
     menu:
-        "Continue":
-            jump helpless
+        "Where?":
+            jump where

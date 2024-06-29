@@ -46,6 +46,9 @@ label punish:
 
     "You don't get to answer that one. No more choices. No more branches."
 
+    window hide
+    pause 5.0
+
     "Most people are afraid of me. They think I'm here to rob them of their joy." 
 
     window hide
@@ -57,6 +60,9 @@ label punish:
     pause 5.0
 
     "I give their joy essence. They don't know it but it's the fleeting nature of joy that gives it such zest. Instead they fight me, try desperately to hold onto what was never theirs to begin with. Gluttons."
+
+    window hide
+    pause 5.0
 
     "They should thank ME."
 

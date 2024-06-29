@@ -37,13 +37,24 @@ label loop:
     $ update_layers(5) # update layer(s)
     pause(5.0)
 
-    "There wasn't one, at least that's what they told me. I haven't been able to believe it yet, or leave this place, since it happened."
+    "There wasn't one, at least that's what I've been told. By them, by everyone. I haven't been able to believe it yet, or leave this place, since it happened."
+
+    window hide
+    pause 5.0
 
     "I know that you'll leave the loop soon, likely already planning on it, but do you think you could do me a favor?"
 
     window hide
     pause 5.0
 
-    "Stay with me for just a moment. Share the silence with me for as long as you can. Then leave when you're ready. I promise I'll let go this time."
+    "Stay with me for just a moment. Share the silence with me for as long as you can. Then leave when you're ready. I promise I'll do what I have never been able to do before."
+
+    window hide
+    pause 5.0
+
+    "I'll let you go."
+
+    window hide
+    pause 5.0
 
     jump moment

@@ -40,10 +40,16 @@ label focus:
     "Sorry. I get carried away sometimes." 
     window hide
     pause 5.0
-    "I told you before but in case it wasn't clear, there was never any winning this game. I lied to you. I think I just wanted someone to share in this feeling with me, even if just for a moment:"
+    "I told you before but in case it wasn't clear, there was never any winning this game. I lied to you from the first moment we spoke. But can you blame me? I think I just wanted someone to share in this feeling with me, even if just for a moment:"
     window hide
     pause 5.0
-    "I was in love once. They left. There was nothing that could be done. No matter how many times I played out the infinite possibilities in my head, there was no saving things." 
+    "I was in love once. They left unexpectedly. It wasn't some explosive fight or violent betrayal. It was just the slow decay of a neurochemical that brought two incompatible people together for a brief period." 
+    window hide
+    pause 5.0
+    "And once it was gone it was gone, as all things inevitably are." 
+    window hide
+    pause 5.0
+    "There was nothing that could be done. No matter how many times I played out the infinite possibilities in my head, no matter how I wracked my brain for what could've been different, how I could've been different, what was done was done. There was no saving things." 
     window hide
     pause 5.0
     "I've been trapped in this loop for as long as I can remember, trying to find the mistake I made." 

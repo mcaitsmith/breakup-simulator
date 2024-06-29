@@ -31,9 +31,12 @@ label who_are_you:
     pause 3.0
 
     menu:
-        "{color=#6a2ad8}I am Entropy.{/color}" if ending == 8 and hint == True and entropy == 0:
+        # "{color=#6a2ad8}I am Entropy.{/color}" if ending == 8 and hint == True and entropy == 0:
+        #     $ entropy = 1
+        #     jump helpless
+        # "I am Entropy." if (ending < 8 or hint == False or (ending == 8 and entropy == 1)):
+        #     $ entropy = 1
+        #     jump helpless
+        "{color=#6a2ad8}I am Entropy.{/color}":
             $ entropy = 1
-            jump helpless
-        "I am Entropy." if (ending < 8 or hint == False or (ending == 8 and entropy == 1)):
-            $ entropy = 1
-            jump helpless
+            jump i_am_entropy

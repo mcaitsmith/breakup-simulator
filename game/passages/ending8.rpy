@@ -62,7 +62,7 @@ label ending8:
     window hide
     pause 5.0
 
-    "Find entropy."
+    "Find me."
 
     menu:
         "Try again":

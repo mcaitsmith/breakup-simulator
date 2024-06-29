@@ -6,7 +6,8 @@ label yes:
 
     $ options += 1
 
-    pause(3.0)
+    window hide
+    show ex frustrated with Dissolve(3.0)
 
     "\"Then I don't know who the fuck you are...And this isn't a relationship anymore, it's a hostage situation.\""
 

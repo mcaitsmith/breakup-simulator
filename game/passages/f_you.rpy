@@ -38,8 +38,10 @@ label f_you:
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(5) # update layer(s)
 
-    show bg livingroom with Dissolve(3.0):
+    show bg livingroom with { "master" : Dissolve(3.0) }:
         attacking_tint
+    window hide
+    show ex anxious with Dissolve(3.0)
 
     "The words surprise you as they pass your lips. Each syllable is like a stone being hurled at your partner. How dare they do this to you?"
 

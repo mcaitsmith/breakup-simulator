@@ -44,6 +44,8 @@ label intro:
 
     scene bg livingroom with Dissolve(3.0)
 
+    show ex happy with Dissolve(3.0)
+
     pause 3.0
 
     "It's Saturday morning and you're sitting on the couch with your partner of two years, holding hands as you watch the latest binge-worthy show. The sun is shining through the window into your shabby yet cozy apartment. Both of you worked hard to pick out the furniture, the wall art, the rugs. This place is the embodiment of your love, your time spent together. It isn't perfect, but it feels like home."

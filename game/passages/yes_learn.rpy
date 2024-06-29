@@ -4,7 +4,12 @@
 
 label yes_learn:
 
-    pause(3.0)
+    window hide
+    show bg livingroom with { "master" : Dissolve(3.0) }:
+        entropy_tint
+    pause 3.0
+    show ex entropy with { "master" : Dissolve(5.0) }
+    pause 2.0
 
     "You can't. Nothing you can do in a sea of infinite choices will prevent the inevitability that eventually everyone drifts apart. Claw at people all you want, sink your teeth into them like the animal starved for love that you are, it changes nothing. Whether it's from a slow loss of communication, a sudden termination of a relationship, or an unexpected death, eventually there will only be you and I."
 

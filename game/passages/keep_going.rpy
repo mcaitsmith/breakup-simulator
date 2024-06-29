@@ -38,8 +38,10 @@ label keep_going:
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(5) # update layer(s)
 
-    show bg livingroom with Dissolve(3.0):
+    show bg livingroom with { "master" : Dissolve(3.0) }:
         attacking_tint4
+    window hide
+    show ex anxious with Dissolve(3.0)
 
     "In a moment of glorious precision, you assemble a verbal dronestrike comprised of every insecurity, every fear, every vulnerability, and you unleash it upon them in a single sentence." 
 

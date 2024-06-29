@@ -4,7 +4,8 @@
 
 label no:
 
-    pause(3.0)
+    window hide
+    show ex neutral with Dissolve(3.0)
 
     "\"Then you have to let me go.\""
 

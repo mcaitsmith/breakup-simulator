@@ -38,8 +38,10 @@ label keeping_this:
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(5) # update layer(s)
 
-    show bg livingroom with Dissolve(3.0):
+    show bg livingroom with { "master" : Dissolve(3.0) }:
         passive_tint
+    window hide
+    show ex anxious with Dissolve(3.0)
 
     "Your ex looks at you with a twinge of frustration." 
 

@@ -40,8 +40,10 @@ label moment:
     pause 60.0
 
     $ stop_layers(5) # stop playing layers
+    
+    hide ex entropy with { "master" : Dissolve(5.0) }
 
-    "Thank You."
+    "{color=#6a2ad8}Thank You.{/color}"
 
     window hide
     pause 10.0

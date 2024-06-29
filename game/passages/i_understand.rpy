@@ -38,8 +38,10 @@ label i_understand:
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(5) # update layer(s)
 
-    show bg livingroom with Dissolve(3.0):
+    show bg livingroom with { "master" : Dissolve(3.0) }:
         accepting_tint
+    window hide
+    show ex relieved with Dissolve(3.0)
 
     "\"Y-you do?\" They seem surprised and a bit relieved. It seems clear that they don't want to hurt you. But at the same time it seems like they're not sacrificing any more of their happiness to protect your feelings."
 

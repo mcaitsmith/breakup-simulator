@@ -37,22 +37,22 @@ label loop:
     $ update_layers(5) # update layer(s)
     pause(5.0)
 
-    "There wasn't one, at least that's what I've been told. By them, by everyone. I haven't been able to believe it yet, or leave this place, since it happened."
+    "{color=#6a2ad8}There wasn't one, at least that's what I've been told. By them, by everyone. I haven't been able to believe it yet, or leave this place, since it happened.{/color}"
 
     window hide
     pause 5.0
 
-    "I know that you'll leave the loop soon, likely already planning on it, but do you think you could do me a favor?"
+    "{color=#6a2ad8}I know that you'll leave the loop soon, likely already planning on it, but do you think you could do me a favor?{/color}"
 
     window hide
     pause 5.0
 
-    "Stay with me for just a moment. Share the silence with me for as long as you can. Then leave when you're ready. I promise I'll do what I have never been able to do before."
+    "{color=#6a2ad8}Stay with me for just a moment. Share the silence with me for as long as you can. Then leave when you're ready. I promise I'll do what I have never been able to do before.{/color}"
 
     window hide
     pause 5.0
 
-    "I'll let you go."
+    "{color=#6a2ad8}I'll let you go.{/color}"
 
     window hide
     pause 5.0

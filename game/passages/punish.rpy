@@ -37,34 +37,34 @@ label punish:
     $ update_layers(5) # update layer(s)
     pause(2.0)
 
-    "That's okay. I am too. I've no business judging."
+    "{color=#6a2ad8}That's okay. I am too. I've no business judging.{/color}"
 
-    "If you would just let go of the past, you'd be free. You know that, right? Will you let yourself believe that?"
-
-    window hide
-    pause 5.0
-
-    "You don't get to answer that one. No more choices. No more branches."
+    "{color=#6a2ad8}If you would just let go of the past, you'd be free. You know that, right? Will you let yourself believe that?{/color}"
 
     window hide
     pause 5.0
 
-    "Most people are afraid of me. They think I'm here to rob them of their joy." 
+    "{color=#6a2ad8}You don't get to answer that one. No more choices. No more branches.{/color}"
 
     window hide
     pause 5.0
 
-    "Absurd."
+    "{color=#6a2ad8}Most people are afraid of me. They think I'm here to rob them of their joy.{/color}" 
 
     window hide
     pause 5.0
 
-    "I give their joy essence. They don't know it but it's the fleeting nature of joy that gives it such zest. Instead they fight me, try desperately to hold onto what was never theirs to begin with. Gluttons."
+    "{color=#6a2ad8}Absurd.{/color}"
 
     window hide
     pause 5.0
 
-    "They should thank ME."
+    "{color=#6a2ad8}I give their joy essence. They don't know it but it's the fleeting nature of joy that gives it such zest. Instead they fight me, try desperately to hold onto what was never theirs to begin with. Gluttons.{/color}"
+
+    window hide
+    pause 5.0
+
+    "{color=#6a2ad8}They should thank ME.{/color}"
 
     window hide
     pause 5.0

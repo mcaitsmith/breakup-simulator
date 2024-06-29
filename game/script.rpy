@@ -3,24 +3,11 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-# define narrator = Character(kind=nvl)
 define narrator = Character(kind=adv)
 
 # define location images
 image bg livingroom = "backgrounds/bg livingroom.png"
 image bg door = "backgrounds/bg door.png"
-# image bg office blur = im.Blur("backgrounds/bg office.png", 1.5) # blurred version
-
-# image policelights:
-#     "#f00"
-#     alpha 0.0
-#     linear .45 alpha 0.2    
-#     linear .45 alpha 0.0
-#     "#00f"
-#     alpha 0.0
-#     linear .45 alpha 0.2    
-#     linear .45 alpha 0.0
-#     repeat
 
 transform begging_tint:
     matrixcolor TintMatrix("#f59cffff") * SaturationMatrix(0.5) * BrightnessMatrix(0.2)
@@ -54,6 +41,13 @@ transform feigning_accepting_tint:
 # define sound effects & music
 define sfx_hover = "audio/sfx/MenuBack.ogg"
 define sfx_select = "audio/sfx/MenuSelect.ogg"
+
+# add background layer
+# init:
+#     define config.layers = [ 'background', 'master', 'transient', 'screens', 'overlay' ]
+#     $ config.tag_layer['bg'] = 'background'
+#     $ config.tag_layer['ex'] = 'master'
+
 
 init python:
     # define music channels

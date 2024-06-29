@@ -38,8 +38,10 @@ label beg:
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(5) # update layer(s)
 
-    show bg livingroom with Dissolve(3.0):
+    show bg livingroom with { "master" : Dissolve(3.0) }:
         begging_tint
+    window hide
+    show ex anxious with Dissolve(3.0)
 
     "You start pleading with them to stay. You offer change, growth, even the possibility that they don't need to spend the \"future\" with you, just a few more months. A few more weeks. Just one more day. They can have anything as long as they stay."
 

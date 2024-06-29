@@ -37,21 +37,21 @@ label focus:
     $ update_layers(5) # update layer(s)
     pause(2.0)
 
-    "Sorry. I get carried away sometimes." 
+    "{color=#6a2ad8}Sorry. I get carried away sometimes.{/color}" 
     window hide
     pause 5.0
-    "I told you before but in case it wasn't clear, there was never any winning this game. I lied to you from the first moment we spoke. But can you blame me? I think I just wanted someone to share in this feeling with me, even if just for a moment:"
+    "{color=#6a2ad8}I told you before but in case it wasn't clear, there was never any winning this game. I lied to you from the first moment we spoke. But can you blame me? I think I just wanted someone to share in this feeling with me, even if just for a moment:{/color}"
     window hide
     pause 5.0
-    "I was in love once. They left unexpectedly. It wasn't some explosive fight or violent betrayal. It was just the slow decay of a neurochemical that brought two incompatible people together for a brief period." 
+    "{color=#6a2ad8}I was in love once. They left unexpectedly. It wasn't some explosive fight or violent betrayal. It was just the slow decay of a neurochemical that brought two incompatible people together for a brief period.{/color}" 
     window hide
     pause 5.0
-    "And once it was gone it was gone, as all things inevitably are." 
+    "{color=#6a2ad8}And once it was gone it was gone, as all things inevitably are.{/color}" 
     window hide
     pause 5.0
-    "There was nothing that could be done. No matter how many times I played out the infinite possibilities in my head, no matter how I wracked my brain for what could've been different, how I could've been different, what was done was done. There was no saving things." 
+    "{color=#6a2ad8}There was nothing that could be done. No matter how many times I played out the infinite possibilities in my head, no matter how I wracked my brain for what could've been different, how I could've been different, what was done was done. There was no saving things.{/color}" 
     window hide
     pause 5.0
-    "I've been trapped in this loop for as long as I can remember, trying to find the mistake I made." 
+    "{color=#6a2ad8}I've been trapped in this loop for as long as I can remember, trying to find the mistake I made.{/color}" 
 
     jump loop

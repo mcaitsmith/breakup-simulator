@@ -38,8 +38,10 @@ label stay_silent:
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(5) # update layer(s)
 
-    show bg livingroom with Dissolve(3.0):
+    show bg livingroom with { "master" : Dissolve(3.0) }:
         passive_tint
+    window hide
+    show ex neutral with Dissolve(3.0)
 
     "\"I can't tell you how sorry I really am. You mean so much to me, and the time we've spent together has meant the world. But I think this is what's best for both of us.\"" 
 

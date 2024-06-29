@@ -38,8 +38,10 @@ label attraction:
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(5) # update layer(s)
 
-    show bg livingroom with Dissolve(3.0):
+    show bg livingroom with { "master" : Dissolve(3.0) }:
         begging_tint
+    window hide
+    show ex frustrated with Dissolve(3.0)
 
     "Have you not made your way around the dialogue tree enough to understand yet?"
 

@@ -38,8 +38,10 @@ label smth_wrong:
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(5) # update layer(s)
 
-    show bg livingroom with Dissolve(3.0):
+    show bg livingroom with { "master" : Dissolve(3.0) }:
         feigning_tint
+    window hide
+    show ex anxious with Dissolve(3.0)
 
     "\"No. No, you haven't done anything wrong. I swear, if you had, I would've told you. I want to make sure you know that there wasn't anything you could've done differently.\" Their voice is shaking as they say this."
 

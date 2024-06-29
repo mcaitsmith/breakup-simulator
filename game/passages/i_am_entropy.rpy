@@ -8,7 +8,11 @@ label i_am_entropy:
 
     pause(2.0)
 
-    scene black with Dissolve(3.0)
+    window hide
+    show bg black with { "master" : Dissolve(3.0) }
+    show ex entropy with Dissolve(3.0)
+
+    $ loops += 1
 
     window hide
     pause 5.0

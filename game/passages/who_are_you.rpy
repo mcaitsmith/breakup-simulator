@@ -4,7 +4,8 @@
 
 label who_are_you:
 
-    pause(3.0)
+    window hide
+    show ex entropy with Dissolve(3.0)
 
     "The silence of a room with nobody in it." 
 

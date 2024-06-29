@@ -38,8 +38,10 @@ label refuse:
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(5) # update layer(s)
 
-    show bg livingroom with Dissolve(3.0):
+    show bg livingroom with { "master" : Dissolve(3.0) }:
         passive_tint
+    window hide
+    show ex frustrated with Dissolve(3.0)
 
     "You realize that as long as this key is in your hand they won't leave. You can hold on forever. You can keep them prisoner in this moment in time forever."
 

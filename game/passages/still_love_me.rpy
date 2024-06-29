@@ -38,8 +38,10 @@ label still_love_me:
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(5) # update layer(s)
 
-    show bg livingroom with Dissolve(3.0):
+    show bg livingroom with { "master" : Dissolve(3.0) }:
         begging_tint
+    window hide
+    show ex anxious with Dissolve(3.0)
 
     "\"Yes.\" They say this quickly, then just as quickly mutter, \"I don't know.\""
 

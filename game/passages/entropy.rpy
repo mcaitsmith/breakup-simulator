@@ -37,17 +37,23 @@ label entropy:
     $ update_layers(5) # update layer(s)
     pause(2.0)
 
-    scene black with Dissolve(3.0)
+    window hide
+    show bg black:
+        matrixcolor TintMatrix("#fff") * SaturationMatrix(1) * BrightnessMatrix(0.0)
+    show ex entropy
+    with { "master" : Dissolve(5.0) }
+    pause 5.0
+    pause 3.0
 
-    "So. How long have you been here for?"
+    "{color=#6a2ad8}So. How long have you been here for?{/color}"
 
-    "How many choices have you clicked through? ..... [options]?"
+    "{color=#6a2ad8}How many choices have you clicked through? ..... {/color}[options]{color=#6a2ad8}?{/color}"
 
-    "That many?" 
+    "{color=#6a2ad8}That many?" 
 
-    "How many times have you gone through this entire loop?..... [loops]?"
+    "{color=#6a2ad8}How many times have you gone through this entire loop?..... {/color}[loops]{color=#6a2ad8}?{/color}"
 
-    "A glutton for punishment aren't you?"
+    "{color=#6a2ad8}A glutton for punishment aren't you?{/color}"
 
     menu:
         "Yes.":

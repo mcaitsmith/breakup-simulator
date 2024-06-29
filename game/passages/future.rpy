@@ -38,8 +38,10 @@ label future:
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(5) # update layer(s)
 
-    show bg livingroom with Dissolve(3.0):
+    show bg livingroom with { "master" : Dissolve(3.0) }:
         begging_tint
+    window hide
+    show ex anxious with Dissolve(3.0)
 
     "\"I know.\" They avoid making eye contact with you. \"We both said a lot of things about the future, about living together and getting married. I meant those things when I said them.\""
 

@@ -6,7 +6,8 @@ label yes_you_are:
 
     $ options += 1
 
-    pause(3.0)
+    window hide
+    show ex anxious with Dissolve(3.0)
 
     "They choke on their own words for a second." 
 

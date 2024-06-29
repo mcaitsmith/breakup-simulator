@@ -38,8 +38,10 @@ label any_chance:
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(5) # update layer(s)
 
-    show bg livingroom with Dissolve(3.0):
+    show bg livingroom with { "master" : Dissolve(3.0) }:
         feigning_tint
+    window hide
+    show ex neutral with Dissolve(3.0)
 
     "\"I don't want to make any promises. Maybe.\" They clench their fists. \"No. The answer has to be no.\""
 

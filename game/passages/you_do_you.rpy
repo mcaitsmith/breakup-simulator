@@ -38,8 +38,10 @@ label you_do_you:
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(5) # update layer(s)
 
-    show bg livingroom with Dissolve(3.0):
+    show bg livingroom with { "master" : Dissolve(3.0) }:
         feigning_tint
+    window hide
+    show ex relieved with Dissolve(3.0)
 
     "\"Y-you're cool with us breaking up?...That's great, actually. I was worried this would be a whole dragged out thing.\""
 

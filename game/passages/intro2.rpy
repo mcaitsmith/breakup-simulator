@@ -7,6 +7,9 @@ label intro2:
     $ ending = 1
     $ options = 1
 
+    window hide
+    show ex neutral with Dissolve(3.0)
+
     "As the TV is abruptly muted, your partner slides a few inches away from you on the couch. Their eyes are glued to the floor, avoiding yours like the plague. When you reach to take their hand again, their arm reluctantly goes limp."
 
     "Finally, they say it:"

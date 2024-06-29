@@ -38,7 +38,7 @@ label better_this_way:
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(5) # update layer(s)
 
-    scene bg livingroom with Dissolve(3.0):
+    show bg livingroom with Dissolve(3.0):
         accepting_tint
 
     "\"I'm really glad to hear you say that.\"" 

@@ -38,7 +38,7 @@ label make_you_happy:
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(5) # update layer(s)
 
-    scene bg livingroom with Dissolve(3.0):
+    show bg livingroom with Dissolve(3.0):
         attacking_tint
 
     "\"There isn't anyone, I told you.\" They clench their fists and raise their voice. Whatever sentimentality was keeping them gentle towards you, it isn't endless. There is a limit. If you keep pushing this, you may regret it."

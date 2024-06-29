@@ -56,17 +56,34 @@ label intro3:
             jump why_not
         "\"Did I do something wrong?\"":
             jump smth_wrong
-        "\"Okay! No Problem!\"" if options >= 10:
+        "{color=#db7b54}\"Okay! No Problem!\"{/color}" if options >= 10 and chose_okay == False:
+            $ chose_okay = True
+            jump okay
+        "\"Okay! No Problem!\"" if options >= 10 and chose_okay == True:
             jump okay
         "{color=#59ba73}\"But I see a future with you.\"{/color}" if options >= 5 and ending == 8 and entropy == 1 and hint == True:
+            $ chose_future = True
             jump future
-        "\"But I see a future with you.\"" if options >= 5 and (hint == False or ending < 8 or (ending == 8 and entropy == 0)):
+        "{color=#db7b54}\"But I see a future with you.\"{/color}" if options >= 5 and (hint == False or ending < 8 or (ending == 8 and entropy == 0)) and chose_future == False:
+            $ chose_future = True
             jump future
-        "\"Fuck you.\"" if options >= 15:
+        "\"But I see a future with you.\"" if options >= 5 and (hint == False or ending < 8 or (ending == 8 and entropy == 0)) and chose_future == True:
+            jump future
+        "{color=#db7b54}\"Fuck you.\"{/color}" if options >= 15 and chose_f_you == False:
+            $ chose_f_you = True
             jump f_you
-        "Stay silent." if options >= 5:
+        "\"Fuck you.\"" if options >= 15 and chose_f_you == True:
+            jump f_you
+        "{color=#db7b54}Stay silent.{/color}" if options >= 5 and chose_silent == False:
+            $ chose_silent = True
             jump stay_silent
-        "{color=#6a2ad8}\"I understand.\"{/color}"  if options >= 20 and ending == 8 and entropy == 0 and hint == True:
+        "Stay silent." if options >= 5 and chose_silent == True:
+            jump stay_silent
+        "{color=#6a2ad8}\"I understand.\"{/color}" if options >= 20 and ending == 8 and entropy == 0 and hint == True:
+            $ chose_understand = True
             jump i_understand
-        "\"I understand.\""  if options >= 20 and (hint == False or ending < 8 or (ending == 8 and entropy == 1)):
+        "{color=#db7b54}\"I understand.\"{/color}" if options >= 20 and (hint == False or ending < 8 or (ending == 8 and entropy == 1)) and chose_understand == False:
+            $ chose_understand = True
+            jump i_understand
+        "\"I understand.\""  if options >= 20 and (hint == False or ending < 8 or (ending == 8 and entropy == 1)) and chose_understand == True:
             jump i_understand

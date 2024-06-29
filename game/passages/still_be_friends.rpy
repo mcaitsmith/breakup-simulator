@@ -38,7 +38,7 @@ label still_be_friends:
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(5) # update layer(s)
 
-    scene bg livingroom with Dissolve(3.0):
+    show bg livingroom with Dissolve(3.0):
         begging_tint
 
     "You can tell they aren't sure what the answer to this question is."

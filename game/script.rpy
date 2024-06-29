@@ -273,6 +273,11 @@ label start:
     $ ending = 0
     $ loops = 0
     $ hint = False
+    $ chose_okay = False
+    $ chose_future = False
+    $ chose_f_you = False
+    $ chose_silent = False
+    $ chose_understand = False
 
     # play music bg_music
 

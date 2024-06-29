@@ -38,7 +38,7 @@ label key:
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(5) # update layer(s)
 
-    scene bg livingroom with Dissolve(3.0):
+    show bg livingroom with Dissolve(3.0):
         passive_tint
 
     "You reach into your pocket and get your keychain. You twirl the keys around and remove the matching spare key to their apartment." 

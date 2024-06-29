@@ -11,7 +11,7 @@ label intro2:
 
     "Finally, they say it:"
 
-    scene bg livingroom with { "master" : Dissolve(3.0) }:
+    show bg livingroom with { "master" : Dissolve(3.0) }:
         entropy_tint
 
     "{cps=15}\"I think we should break up.\"{/cps}"

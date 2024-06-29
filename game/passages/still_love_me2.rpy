@@ -38,7 +38,7 @@ label still_love_me2:
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(5) # update layer(s)
 
-    scene bg livingroom with Dissolve(3.0):
+    show bg livingroom with Dissolve(3.0):
         begging_tint
 
     "\"I still love you. The feeling is still there, but I don't feel like I belong with you anymore. I don't feel like we have anything in common anymore.\""

@@ -38,7 +38,7 @@ label give_me_smth:
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(5) # update layer(s)
 
-    scene bg livingroom with Dissolve(3.0):
+    show bg livingroom with Dissolve(3.0):
         begging_tint
 
     "\"That wouldn't be fair to you. We have to leave it at \"no\" for now.\""

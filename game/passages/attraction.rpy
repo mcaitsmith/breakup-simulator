@@ -38,7 +38,7 @@ label attraction:
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(5) # update layer(s)
 
-    scene bg livingroom with Dissolve(3.0):
+    show bg livingroom with Dissolve(3.0):
         begging_tint
 
     "Have you not made your way around the dialogue tree enough to understand yet?"

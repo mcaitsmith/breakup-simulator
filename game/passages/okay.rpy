@@ -38,7 +38,7 @@ label okay:
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(5) # update layer(s)
 
-    scene bg livingroom with Dissolve(3.0):
+    show bg livingroom with Dissolve(3.0):
         feigning_tint
 
     "\"W-what?\" They seem a bit caught off guard by your response." 

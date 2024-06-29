@@ -36,7 +36,7 @@ label i_mean_it:
     $ attacking_accepting_percussion_cymbals_on = False
     $ update_layers(5) # update layer(s)
 
-    scene bg livingroom with Dissolve(3.0):
+    show bg livingroom with Dissolve(3.0):
         accepting_tint
 
     "You understand what this will mean though, right? They will be gone forever. It'll just be you in a sea of silence."

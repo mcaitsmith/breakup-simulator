@@ -8,7 +8,7 @@ label no_key:
 
     $ options += 1
 
-    scene bg livingroom with Dissolve(3.0):
+    show bg livingroom with Dissolve(3.0):
         passive_tint
 
     "\"Fine.\" As they stand up to leave they drop your key on the floor. \"I won't be held hostage.\" They say something ugly under their breath as they leave."

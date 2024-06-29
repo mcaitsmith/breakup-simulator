@@ -29,8 +29,7 @@ define config.version = "1.0"
 ## Text that is placed on the game's about screen. Place the text between the
 ## triple-quotes, and leave a blank line between paragraphs.
 
-define gui.about = _p("""
-""")
+define gui.about = "{b}Writer:{/b} {a=https://itch.io/profile/patty-o/}Patty-O{/a}\n{b}Programmer:{/b} {a=https://itch.io/profile/merrygold/}merrygold{/a}\n{b}Composer:{/b} {a=https://itch.io/profile/citscomposer/}Circles in the Sky{/a}\n{b}Artist:{/b} {a=https://itch.io/profile/corvidclowns/}CorvidClowns{/a}"
 
 
 ## A short name for the game used for executables and directories in the built

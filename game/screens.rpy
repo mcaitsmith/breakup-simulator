@@ -330,7 +330,7 @@ screen navigation():
             textbutton _("Main Menu"):
                 action MainMenu()
 
-        textbutton _("About"):
+        textbutton _("Credits"):
             action ShowMenu("about")
 
         if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
@@ -568,7 +568,7 @@ screen about():
 
         vbox:
 
-            label "[config.name!t]"
+            label "{b}[config.name!t]{/b}"
             # text _("Version [config.version!t]\n")
 
             ## gui.about is usually set in options.rpy.

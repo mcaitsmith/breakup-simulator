@@ -39,7 +39,7 @@ label keep_going:
     $ update_layers(5) # update layer(s)
 
     show bg livingroom with Dissolve(3.0):
-        attacking_tint
+        attacking_tint4
 
     "In a moment of glorious precision, you assemble a verbal dronestrike comprised of every insecurity, every fear, every vulnerability, and you unleash it upon them in a single sentence." 
 

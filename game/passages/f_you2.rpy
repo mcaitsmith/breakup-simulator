@@ -39,7 +39,7 @@ label f_you2:
     $ update_layers(5) # update layer(s)
 
     show bg livingroom with Dissolve(3.0):
-        attacking_tint
+        attacking_tint2
 
     "Your (now ex) partner begins to cry. If your goal was to do more damage to them than they can do to you, this is your opportunity."
 

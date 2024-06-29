@@ -31,6 +31,12 @@ transform feigning_tint:
     matrixcolor TintMatrix("#ecffb2de") * SaturationMatrix(0.3) * BrightnessMatrix(0.1)
 transform attacking_tint:
     matrixcolor TintMatrix("#ff7070cb")
+transform attacking_tint2:
+    matrixcolor TintMatrix("#ff3d3ddc") * SaturationMatrix(2.0)
+transform attacking_tint3:
+    matrixcolor TintMatrix("#ff2222ed") * SaturationMatrix(4.0)
+transform attacking_tint4:
+    matrixcolor TintMatrix("#420000fa") * SaturationMatrix(8.0)
 transform accepting_tint:
     matrixcolor TintMatrix("#b5ffc9ce") * SaturationMatrix(0.5) * BrightnessMatrix(0.2)
 transform entropy_tint:
@@ -278,7 +284,5 @@ label start:
     $ chose_f_you = False
     $ chose_silent = False
     $ chose_understand = False
-
-    # play music bg_music
 
     jump intro

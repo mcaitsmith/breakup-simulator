@@ -137,7 +137,7 @@ Or ten years.
 [[ "No." |say no]]
 
 
-:: "It's better this way." {"position":"600,150","size":"100,100"}
+:: "It's better this way." {"position":"600,175","size":"100,100"}
 <<set $options to $options + 1>>
 "I'm really glad to hear you say that." 
 
@@ -152,7 +152,7 @@ Do you actually understand or is this just another ploy to make them change thei
 [[I'm still holding on to hope.|"Yeah, it's fine. You do you."]]
 
 
-:: "Make up your mind." {"position":"1000,100","size":"100,100"}
+:: "Make up your mind." {"position":"1025,150","size":"100,100"}
 <<set $options to $options + 1>>
 "I wish I could, believe me. There are so many things in my life that I am constatly uncertain about. My job isn't going anywhere, I don't have any friends, it  feels like I'm going nowhere. I need to be alone for a while, figure out what I want, that much I know."
 
@@ -183,7 +183,7 @@ No. You can hold them here if you try. Just try harder.
 [["Wait. Don't go."|You're helpless to stop it.]]
 
 
-:: "Oh, not at all. Honestly, you deserve better." {"position":"700,0","size":"100,100"}
+:: "Oh, not at all. Honestly, you deserve better." {"position":"675,75","size":"100,100"}
 <<set $options to $options + 1>>
 "That's a way to put it, I guess. I think we both deserve better. You deserve someone who is sure about being with you. I deserve...I don't know. Maybe to just be by myself for a while."
 
@@ -203,7 +203,7 @@ As am I. What are you doing? Is this reverse psychology?
 [["I was getting sort of bored with you too anyway!"|"Yeah, it's fine. You do you."]]
 
 
-:: "Please just say maybe. Give me something." {"position":"1200,0","size":"100,100"}
+:: "Please just say maybe. Give me something." {"position":"1250,25","size":"100,100"}
 "That wouldn't be fair to you. We have to leave it at 'no' for now."
 
 Fair to you?! This whole thing has been unfair to you. Pulling the rug out from under you was unfair. They want to talk about 'fair'? Bullshit.
@@ -271,7 +271,7 @@ They're lying to you. I've never been more certain. Infidelity. Betrayal. Make t
 [["What do you mean that we don't have anything in common? How did you randomly decide that now?"|push]]
 
 
-:: "Throwing me away won't fix your life. You don't have to be alone." {"position":"950,275","size":"100,100"}
+:: "Throwing me away won't fix your life. You don't have to be alone." {"position":"975,300","size":"100,100"}
 <<set $options to $options + 1>>
 "I'm not throwing you away." 
 
@@ -329,7 +329,7 @@ This is not the same person you've loved for the past two years. Something has c
 [["Oh, not at all. Honestly, I deserve better."|"Oh, not at all. Honestly, you deserve better."]]
 
 
-:: "Yes you are." {"position":"1125,175","size":"100,100"}
+:: "Yes you are." {"position":"1125,200","size":"100,100"}
 <<set $options to $options + 1>>
 They choke on their own words for a second. 
 
@@ -373,7 +373,7 @@ You look over at the TV, still frozen in place. 'One episode to go' the screen s
 <</if>>
 
 
-:: "You still love me." {"position":"200,1275","size":"100,100"}
+:: "You still love me." {"position":"250,1300","size":"100,100"}
 <<set $options to $options + 1>>
 "I still love you. The feeling is still there, but I don't feel like I belong with you anymore. I don't feel like we have anything in common anymore."
 
@@ -414,17 +414,41 @@ You have no choice. You have to[[Let them go]].
 :: Focus. {"position":"1400,1400","size":"100,100"}
 Sorry. I get carried away sometimes. 
 <<timed 10s>>
-I told you before but in case it wasn't clear, there was never any winning this game. I lied to you. I think I just wanted someone to share in this feeling with me, even if just for a moment:
+I told you before but in case it wasn't clear, there was never any winning this game. I lied to you from the first moment we spoke. But can you blame me? I think I just wanted someone to share in this feeling with me, even if just for a moment:
 <</timed>>
 <<timed 15s>>
-I was in love once. They left. There was nothing that could be done. No matter how many times I played out the infinite possibilities in my head, there was no saving things. 
+I was in love once. They left unexpectedly. It wasn't some explosive fight or violent betrayal. It was just the slow decay of a neurochemical that brought two incompatible people together for a brief period.
+<</timed>>
+<<timed 18s>>
+And once it was gone it was gone, as all things inevitably are.
 <</timed>>
 <<timed 20s>>
+There was nothing that could be done. No matter how many times I played out the infinite possibilities in my head, no matter how I wracked my brain for what could've been different, how I could've been different, what was done was done. There was no saving things. 
+<</timed>>
+<<timed 25s>>
 I've been trapped in this loop for as long as I can remember, trying to find the mistake I [[made.|loop]] 
 <</timed>>
 
 
-:: I mean it. {"position":"825,150","size":"100,100"}
+:: I am Entropy. {"position":"2525,100","size":"100,100"}
+<<timed 5s>>
+You saw a future with them.
+<</timed>>
+<<timed 10s>>
+Then something changed.
+<</timed>>
+<<timed 15s>>
+They still love you.
+<</timed>>
+<<timed 20s>>
+But not even love is immune to [[entropy|Intro part 3]].
+<</timed>>
+<<timed 23s>>
+I'm so glad we get to share the pain together.
+<</timed>>
+
+
+:: I mean it. {"position":"800,175","size":"100,100"}
 You understand what this will mean though, right? They will be gone forever. It'll just be you in a sea of silence.
 
 Does that not terrify you?
@@ -659,10 +683,28 @@ It reaches for the door handle, then turns back to you.
 
 "When you have the answer, come visit me here once more. We can be more honest with each other then."
 
-[[Continue|You're helpless to stop it.]] 
+[[Where?]] 
 
 
-:: Who are you? {"position":"2225,50","size":"100,100"}
+:: Where? {"position":"1300,1125","size":"100,100"}
+<<timed 5s>>
+"Let your ex be as they are."
+<</timed>>
+<<timed 10s>>
+"Broach the possibility of friendship."
+<</timed>>
+<<timed 15s>>
+"Find the opening in their armor and don't hold back."
+<</timed>>
+<<timed 20s>>
+"That's where you'll find [[me.|Intro part 3]]"
+<</timed>>
+<<timed 23s>>
+Maybe we can escape together.
+<</timed>>
+
+
+:: Who are you? {"position":"2275,75","size":"100,100"}
 <<set $entropy to 1>>
 The silence of a room with nobody in it. 
 
@@ -672,7 +714,7 @@ I am Entropy.
 <</timed>>
 You've always known me. I was with you before birth and I'll reclaim you when your time comes. 
 <<timed 10s>>
-[[I am Entropy.|You're helpless to stop it.]]
+[[I am Entropy.]]
 <</timed>>
 <,timed 15s>>
 This place is just a playground for you to ping around, toy with, and ultimately hide from the world. 
@@ -689,7 +731,7 @@ I'll be sad to see you leave too, when the time comes of course.
 
 
 :: Yes. {"position":"2075,50","size":"100,100"}
-You can't. Nothing you can do in a sea of infinite choices will prevent the inevitability that eventually everyone drifts apart. Claw at people all you want, it changes nothing. Whether it's from a slow loss of communication, a sudden termination of a relationship, or an unexpected death, eventually there will only be you and me.
+You can't. Nothing you can do in a sea of infinite choices will prevent the inevitability that eventually everyone drifts apart. Claw at people all you want, sink your teeth into them like the animal starved for love that you are, it changes nothing. Whether it's from a slow loss of communication, a sudden termination of a relationship, or an unexpected death, eventually there will only be you and I.
 
 [[Who are you?]]
 
@@ -878,7 +920,7 @@ Keep looking.
 There may not be a way to win, but you can still [[break the loop|Intro part 3]]
 <</timed>>
 <<timed 23s>>
-Find entropy.
+Find me.
 <</timed>>
 
 
@@ -890,12 +932,15 @@ You have to [[Let them go]]
 
 
 :: loop {"position":"1600,1400","size":"100,100"}
-There wasn't one, at least that's what they told me. I haven't been able to believe it yet, or leave this place, since it happened.
-
+There wasn't one, at least that's what I've been told. By them, by everyone. I haven't been able to believe it yet, or leave this place, since it happened.
+<<timed 5s>>
 I know that you'll leave the loop soon, likely already planning on it, but do you think you could do me a favor?
-
+<</timed>>
 <<timed 10s>>
-Stay with me for just a [[moment.]] Share the silence with me for as long as you can. Then leave when you're ready. I promise I'll let go this time.
+Stay with me for just a [[moment.]] Share the silence with me for as long as you can. Then leave when you're ready. I promise I'll do what I have never been able to do before.
+<</timed>>
+<<timed 15s>>
+I'll let you go.
 <</timed>>
 
 
@@ -912,7 +957,8 @@ If you would just let go of the past, you'd be free. You know that, right? Will 
 
 <<timed 10s>>
 You don't get to answer that one. No more choices. No more branches.
-
+<</timed>>
+<<13s>>
 Most people are afraid of me. They think I'm here to rob them of their joy. 
 <</timed>>
 <<timed 15s>>
@@ -920,7 +966,8 @@ Absurd.
 <</timed>>
 <<timed 20s>>
 I give their joy essence. They don't know it but it's the fleeting nature of joy that gives it such zest. Instead they fight me, try desperatyely to hold onto what was never theirs to begin with. Gluttons.
-
+<</timed>>
+<<timed 22s>>
 They should thank ME.
 <</timed>>
 <<timed 25s>>
@@ -939,7 +986,7 @@ Bullshit. This is all some sadistic game to them. Good people don't just throw o
 [[Stop pushing this.|Stay silent.]]
 
 
-:: say no {"position":"2000,200","size":"100,100"}
+:: say no {"position":"1975,225","size":"100,100"}
 "Then you have to [[let me go.|Let them go]]"
 
 

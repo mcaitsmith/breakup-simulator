@@ -56,6 +56,8 @@ label helpless:
 
     "As they leave the apartment, it's just you and" 
 
+    hide ex with Dissolve(3.0)
+
     menu:
         "the silence they've left behind." if ending == 1:
             jump ending1

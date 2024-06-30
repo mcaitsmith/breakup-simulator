@@ -61,6 +61,8 @@ label what_are_you:
 
     "\"When you have the answer, come visit me here once more. We can be more honest with each other then.\""
 
+    hide ex with Dissolve(3.0)
+
     menu:
         "Where?":
             jump where
